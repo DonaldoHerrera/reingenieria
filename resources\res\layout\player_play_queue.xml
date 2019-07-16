@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/raven" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/play_queue_body" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.soundcloud.android.playback.ui.view.PlayerTrackArtworkView android:id="@+id/artwork_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:id="@+id/artwork_overlay_dark" style="@style/PlayerTrackArtworkOverlay"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:paddingTop="@dimen/player_play_queue_list_padding_top" style="@style/PlayerOverlay.RecyclerView"/>
+        <ProgressBar android:id="@+id/loading_indicator" style="@style/PlayerOverlay.ProgressBar"/>
+    </FrameLayout>
+    <com.soundcloud.android.view.GlassLinearLayout android:id="@+id/play_queue_header" android:focusable="true" android:clickable="true" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:source="@+id/play_queue_body" style="@style/PlayerOverlay.HeaderBackground">
+        <ImageButton android:id="@+id/close_play_queue" android:background="@null" android:padding="@dimen/space_default" android:layout_width="@dimen/player_overlay_dialog_close_button_size" android:layout_height="match_parent" android:src="@drawable/white_cross" android:scaleType="center" android:contentDescription="@string/accessibility_close"/>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/up_next" android:focusable="true" android:clickable="true" android:text="@string/up_next" android:layout_weight="1" android:paddingStart="@dimen/space_default" android:paddingEnd="@dimen/space_default" app:custom_font="@string/interstate_light" style="@style/PlayerOverlay.HeaderTitle"/>
+        <ImageButton android:id="@+id/shuffle_button" android:contentDescription="@string/accessibility_shuffle" style="@style/PlayerPlayQueueButton.Shuffle"/>
+        <ImageButton android:id="@+id/repeat_button" android:contentDescription="@string/accessibility_repeat" style="@style/PlayerPlayQueueButton.Repeat"/>
+    </com.soundcloud.android.view.GlassLinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

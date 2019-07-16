@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/status_place_holder" android:layout_width="match_parent" android:layout_height="@dimen/translucent_status_height"/>
+    <ImageView android:id="@+id/conversion_cloud" android:contentDescription="@null" style="@style/ConversionCloud"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/conversion_title" android:layout_marginTop="12dp" style="@style/ConversionText.Title"/>
+    <View android:id="@+id/conversion_divider" style="@style/ConversionDivider"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/conversion_plan" style="@style/ConversionText.Plan"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/conversion_price" android:layout_marginBottom="12dp" style="@style/ConversionText.Price"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/conversion_description" style="@style/ConversionText.Details"/>
+    <com.soundcloud.android.view.LoadingButton android:id="@+id/conversion_buy" android:layout_marginTop="24dp" app:actionText="@string/conversion_buy_no_trial" app:loadingText="@string/conversion_buy_loading" app:retryText="@string/conversion_buy_retry" style="@style/ConversionButton"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontButton android:id="@+id/conversion_more_products" android:visibility="invisible" android:layout_marginTop="8dp" style="@style/ConversionButton.More"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:layout_gravity="center" android:id="@+id/conversion_restrictions" android:text="@string/conversion_restrictions" style="@style/ConversionText.Restrictions"/>
+    </FrameLayout>
+</LinearLayout>

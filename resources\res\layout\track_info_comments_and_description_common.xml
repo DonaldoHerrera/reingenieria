@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/comments" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TrackInfo.Text.Main.Comments"/>
+    <View android:id="@+id/comments_divider" android:visibility="gone" style="@style/Divider.1.Section"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/uploaded_at" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" style="@style/TrackInfo.Text.Main.UploadedAt"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/no_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/track_info_no_description" style="@style/TrackInfo.Text.Main.NoDescription"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" style="@style/TrackInfo.Text.Main.Description"/>
+</LinearLayout>

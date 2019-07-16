@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/raven" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/advertisement_header" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="43.0dip">
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textColor="@color/ash" android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/advertisement" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/ads_advertisement" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/btn_group" android:layout_below="@id/advertisement_header">
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textSize="22.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="start" android:id="@id/opt_in_text" android:layout_width="300.0dip" android:layout_height="84.0dip" android:layout_marginBottom="40.0dip" android:text="@string/ads_opt_in_text" android:maxLines="3" android:layout_centerHorizontal="true" android:lineSpacingExtra="2.0sp" />
+            <ImageView android:id="@id/ad_image_view" android:background="@color/raven" android:layout_width="340.0dip" android:layout_height="285.0dip" android:layout_below="@id/opt_in_text" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <LinearLayout android:id="@id/btn_group" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_alignParentBottom="true">
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textSize="20.0sp" android:textColor="@color/black" android:ellipsize="end" android:gravity="center" android:id="@id/btn_left" android:layout_width="0.0dip" android:layout_height="75.0dip" android:maxLines="1" android:layout_weight="0.5" />
+        <View android:layout_gravity="center_vertical" android:background="@color/platinum" android:layout_width="1.0dip" android:layout_height="40.0dip" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textSize="20.0sp" android:textColor="@color/soundcloudOrange" android:ellipsize="end" android:gravity="center" android:id="@id/btn_right" android:layout_width="0.0dip" android:layout_height="75.0dip" android:maxLines="1" android:layout_weight="0.5" />
+    </LinearLayout>
+</RelativeLayout>

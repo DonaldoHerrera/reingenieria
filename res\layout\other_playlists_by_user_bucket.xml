@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/track_recommendations_bucket" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Carousel.Bucket"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/Divider.1.Section" />
+    <View style="@style/Divider.16.Mist" />
+    <View style="@style/Divider.1.Section" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textColor="@color/ash" android:gravity="center_vertical" android:id="@id/reason" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" style="@style/Carousel.ReasonText" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/other_playlists" android:paddingLeft="16.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:overScrollMode="never" />
+    <View style="@style/Divider.1.Section" />
+    <View style="@style/Divider.16.Mist" />
+</LinearLayout>

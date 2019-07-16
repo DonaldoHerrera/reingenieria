@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/edit_playlist_done" android:id="@+id/edit_validate" android:visible="false" android:title="@string/edit_validate" app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <include layout="@layout/new_track_info_comments_and_description_common"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/trackInfoLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true"/>
+</merge>

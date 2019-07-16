@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/ViewAllContainer">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/sounds_view_all_text" style="@style/ViewAllText"/>
+</FrameLayout>

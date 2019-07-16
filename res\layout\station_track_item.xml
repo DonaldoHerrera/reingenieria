@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/recommendation_item" android:clipChildren="false" android:layout_width="@dimen/stations_track_item_size" android:layout_height="wrap_content" style="@style/Carousel.StationItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ForegroundImageView="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.soundcloud.android.view.ForegroundImageView android:id="@id/recommendation_artwork" android:layout_width="@dimen/stations_track_item_size" android:layout_height="@dimen/stations_track_item_size" android:layout_marginBottom="8.0dip" ForegroundImageView:foregroundDrawable="@drawable/artwork_border" ForegroundImageView:square="true" style="@style/Carousel.Artwork" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/recommendation_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/recommendation_artwork" style="@style/Carousel.ItemTitle" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/recommendation_artist" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/recommendation_title" style="@style/Carousel.ItemArtist" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/recommendation_now_playing" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_now_playing" android:drawableLeft="@drawable/ic_now_playing" android:layout_below="@id/recommendation_title" style="@style/Carousel.ItemNowPlaying" />
+        <View android:id="@id/go_indicator" android:layout_marginTop="@dimen/go_indicator_offset" android:layout_marginRight="@dimen/go_indicator_offset" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/GoIndicator" />
+    </RelativeLayout>
+    <com.soundcloud.android.view.OverflowAnchorImageButton android:layout_gravity="bottom|center|right" android:id="@id/overflow_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-8.0dip" android:layout_marginBottom="-7.0dip" style="@style/Carousel.OverflowButton" />
+</FrameLayout>

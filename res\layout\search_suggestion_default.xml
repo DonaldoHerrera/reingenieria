@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/Search.Suggestion.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sc="http://schemas.android.com/apk/res-auto">
+    <com.soundcloud.android.view.ForegroundImageView android:id="@id/icon" android:src="@drawable/cloud_no_logo_sm" sc:foregroundDrawable="@drawable/artwork_border" style="@style/Search.Suggestion.Icon" />
+    <include layout="@layout/search_suggestion_content" />
+</FrameLayout>

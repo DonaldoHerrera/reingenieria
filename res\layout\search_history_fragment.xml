@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:id="@id/ak_recycler_view" android:background="@color/page_background" android:scrollbars="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:headerDividersEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

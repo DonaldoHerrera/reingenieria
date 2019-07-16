@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/fullbleed_ad_artwork" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="@null"/>
+    <ImageView android:id="@+id/centered_ad_artwork" android:visibility="invisible" android:contentDescription="@null" style="@style/PlayerIABAdArtwork"/>
+    <com.soundcloud.android.playback.ui.view.ArtworkAdOverlayView android:id="@+id/artwork_overlay" android:background="@color/artwork_overlay" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.soundcloud.android.playback.ui.view.ArtworkAdOverlayView android:id="@+id/centered_ad_clickable_overlay" android:visibility="invisible" style="@style/PlayerIABAdArtwork"/>
+    <WebView android:id="@+id/companion_web_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+</RelativeLayout>

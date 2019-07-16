@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_stats_likes">
+        <item quantity="one">%d Like</item>
+        <item quantity="other">%d Likes</item>
+    </plurals>
+    <plurals name="activities_new_notification">
+        <item quantity="one">1 neue Benachrichtigung</item>
+        <item quantity="other">%s neue Benachrichtigungen</item>
+    </plurals>
+    <plurals name="ads_app_ratings">
+        <item quantity="one">%s Bewertung</item>
+        <item quantity="other">%s Bewertungen</item>
+    </plurals>
+    <plurals name="collections_playlists_and_albums_header_plural">
+        <item quantity="one">Playlists &amp; Alben</item>
+        <item quantity="other">%d Playlists &amp; Alben</item>
+    </plurals>
+    <plurals name="collections_recently_played_header_items">
+        <item quantity="one">%d kürzlich gespieltes Element</item>
+        <item quantity="other">%d kürzlich gespielte Elemente</item>
+    </plurals>
+    <plurals name="downloading_track_of_tracks">
+        <item quantity="one">%1$d Track</item>
+        <item quantity="other">%1$d von %2$d Tracks</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="one">%d Tag</item>
+        <item quantity="other">%d Tage</item>
+    </plurals>
+    <plurals name="elapsed_days_ago">
+        <item quantity="one">Vor %d Tag</item>
+        <item quantity="other">Vor %d Tagen</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="one">%d Stunde</item>
+        <item quantity="other">%d Stunden</item>
+    </plurals>
+    <plurals name="elapsed_hours_ago">
+        <item quantity="one">Vor %d Stunde</item>
+        <item quantity="other">Vor %d Stunden</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="one">%d Minute</item>
+        <item quantity="other">%d Minuten</item>
+    </plurals>
+    <plurals name="elapsed_minutes_ago">
+        <item quantity="one">Vor %d Minute</item>
+        <item quantity="other">Vor %d Minuten</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="one">%d Monat</item>
+        <item quantity="other">%d Monate</item>
+    </plurals>
+    <plurals name="elapsed_months_ago">
+        <item quantity="one">Vor %d Monat</item>
+        <item quantity="other">Vor %d Monaten</item>
+    </plurals>
+    <plurals name="elapsed_seconds">
+        <item quantity="one">%d Sekunde</item>
+        <item quantity="other">%d Sekunden</item>
+    </plurals>
+    <plurals name="elapsed_seconds_ago">
+        <item quantity="one">Vor %d Sekunde</item>
+        <item quantity="other">Vor %d Sekunden</item>
+    </plurals>
+    <plurals name="elapsed_years">
+        <item quantity="one">%d Jahr</item>
+        <item quantity="other">%d Jahre</item>
+    </plurals>
+    <plurals name="elapsed_years_ago">
+        <item quantity="one">Vor %d Jahr</item>
+        <item quantity="other">Vor %d Jahren</item>
+    </plurals>
+    <plurals name="library_search_likes_hint">
+        <item quantity="one">%dTrack durchsuchen</item>
+        <item quantity="other">%d Tracks durchsuchen</item>
+    </plurals>
+    <plurals name="number_of_liked_tracks_you_liked">
+        <item quantity="one">%d Track</item>
+        <item quantity="other">%d Tracks</item>
+    </plurals>
+    <plurals name="number_of_sounds">
+        <item quantity="one">%s Track</item>
+        <item quantity="other">%s Tracks</item>
+    </plurals>
+    <plurals name="offline_dialog_go_online_warning_content">
+        <item quantity="one">Dein Gerät muss mindestens einmal alle 30 Tage online sein, damit wir dein Abonnement bestätigen können. Wir bitten dich darum, innerhalb von %d Tag online zu gehen. Andernfalls verlierst du den Zugriff auf deine heruntergeladenen Inhalte.</item>
+        <item quantity="other">Dein Gerät muss mindestens einmal alle 30 Tage online sein, damit wir dein Abonnement bestätigen können. Wir bitten dich darum, innerhalb von %d Tagen online zu gehen. Andernfalls verlierst du den Zugriff auf deine heruntergeladenen Inhalte.</item>
+    </plurals>
+    <plurals name="offline_dialog_go_online_warning_title">
+        <item quantity="one">Bestätige dein Abonnement innerhalb von %d Tag</item>
+        <item quantity="other">Bestätige dein Abonnement innerhalb von %d Tagen</item>
+    </plurals>
+    <plurals name="stream_new_posts">
+        <item quantity="one">1 neuer Post</item>
+        <item quantity="other">%s neue Posts</item>
+    </plurals>
+    <plurals name="trackinfo_comments">
+        <item quantity="one">%d Kommentar zu diesem Track</item>
+        <item quantity="other">%d Kommentare zu diesem Track</item>
+    </plurals>
+</resources>

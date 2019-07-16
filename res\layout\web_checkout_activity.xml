@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar_no_shadow" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_id" android:animateLayoutChanges="true">
+        <com.soundcloud.android.view.CircularProgressBar android:layout_gravity="center" android:id="@id/loading" android:layout_width="@dimen/medium_indeterminite_spinner_width" android:layout_height="@dimen/medium_indeterminite_spinner_height" />
+        <RelativeLayout android:id="@id/retry" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CheckoutRetry">
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/retry_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conversion_retry_heading" style="@style/CheckoutRetryHeading" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/retry_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conversion_retry_message" android:layout_below="@id/retry_heading" style="@style/CheckoutRetryMessage" />
+            <com.soundcloud.android.view.customfontviews.CustomFontButton android:id="@id/retry_button" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/conversion_retry_button" android:layout_below="@id/retry_message" style="@style/CheckoutRetryButton" />
+        </RelativeLayout>
+        <WebView android:id="@id/payment_form" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</RelativeLayout>

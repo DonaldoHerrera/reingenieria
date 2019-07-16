@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.soundcloud.android.view.customfontviews.CustomFontTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/social_link" style="@style/Profile.InfoTab.Link"/>

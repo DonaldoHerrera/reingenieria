@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="@dimen/collection_recently_played_item_size" android:layout_height="wrap_content" style="@style/Collections.BucketCarouselCard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/carousel_item_right_margin" android:layout_marginBottom="8.0dip" android:layout_marginEnd="@dimen/carousel_item_right_margin" layout="@layout/carousel_playlist_item" />
+    <com.soundcloud.android.view.OverflowAnchorImageButton android:id="@id/overflow_button" style="@style/Collections.RecentlyPlayedCarouselOverflowMenuButton" />
+</FrameLayout>

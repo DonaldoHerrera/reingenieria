@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/upsell_text" android:layout_marginRight="14.0dip" android:text="@string/playback_upsell" android:layout_toLeftOf="@id/upsell_button" android:layout_alignTop="@id/upsell_button" android:layout_alignBottom="@id/upsell_button" android:layout_alignParentLeft="true" style="@style/PlayerUpsell" />
+    <com.soundcloud.android.view.customfontviews.CustomFontButton android:id="@id/upsell_button" android:text="@string/playback_upsell_button" android:layout_alignParentRight="true" style="@style/PlayerUpsell.Button" />
+</merge>

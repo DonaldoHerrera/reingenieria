@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageButton android:id="@+id/btn_action" android:background="@drawable/rec_button" android:layout_width="@dimen/rec_record_button_dimension" android:layout_height="@dimen/rec_record_button_dimension" android:src="@drawable/ic_record_record_white" android:adjustViewBounds="true" android:layout_centerInParent="true" android:contentDescription="@string/accessibility_record"/>
+</RelativeLayout>

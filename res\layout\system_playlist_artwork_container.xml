@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="24.0dip" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="@dimen/system_playlist_preview_width" android:layout_height="@dimen/system_playlist_preview_height" style="@style/SystemPlaylistHeader.BackStack" />
+    <View android:layout_width="@dimen/system_playlist_preview_width" android:layout_height="@dimen/system_playlist_preview_height" style="@style/SystemPlaylistHeader.MidStack" />
+    <ViewFlipper android:id="@id/artwork_animator" android:layout_width="@dimen/system_playlist_preview_width" android:layout_height="@dimen/system_playlist_preview_height" />
+</FrameLayout>

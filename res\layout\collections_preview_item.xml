@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:soundcloud="http://schemas.android.com/apk/res-auto">
+    <com.soundcloud.android.collection.CollectionPreviewView android:id="@id/collection_likes_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" soundcloud:collectionIcon="@drawable/ic_collection_likes" soundcloud:collectionTitle="@string/collections_your_liked_tracks" />
+    <View style="@style/Divider.1.Section" />
+    <com.soundcloud.android.collection.CollectionPreviewView android:id="@id/collection_playlists_preview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" soundcloud:collectionIcon="@drawable/ic_collection_playlists" soundcloud:collectionTitle="@string/collections_playlists_header" />
+    <View android:id="@id/collection_playlists_preview_divider" android:visibility="gone" style="@style/Divider.1.Section" />
+    <com.soundcloud.android.collection.CollectionPreviewView android:id="@id/collection_stations_preview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" soundcloud:collectionIcon="@drawable/ic_collection_stations" soundcloud:collectionPreviewOverlay="@drawable/stations_overlay_small" soundcloud:collectionTitle="@string/stations_collection_title_liked_stations" />
+</LinearLayout>

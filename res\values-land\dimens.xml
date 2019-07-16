@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="ad_cta_button_bottom_margin">60.0dip</dimen>
+    <dimen name="ad_cta_button_height">30.0dip</dimen>
+    <dimen name="android_status_bar_stub_height">0.0dip</dimen>
+    <dimen name="cards_header_min_height">72.0dip</dimen>
+    <dimen name="cast_expanded_controller_ad_background_layout_height">200.0dip</dimen>
+    <dimen name="cast_expanded_controller_ad_background_layout_width">240.0dip</dimen>
+    <dimen name="cast_expanded_controller_ad_layout_height">200.0dip</dimen>
+    <dimen name="cast_expanded_controller_ad_layout_width">240.0dip</dimen>
+    <dimen name="cast_expanded_controller_margin_between_seek_bar_and_control_buttons">8.0dip</dimen>
+    <dimen name="cast_expanded_controller_margin_between_status_text_and_seek_bar">8.0dip</dimen>
+    <dimen name="conversion_margin_side">90.0dip</dimen>
+    <dimen name="crop__bar_height">48.0dip</dimen>
+    <dimen name="empty_message_margin_left_right">40.0dip</dimen>
+    <dimen name="go_onboarding_settings_tooltip_margin_bottom">16.0dip</dimen>
+    <dimen name="go_onboarding_settings_tooltip_margin_top">28.0dip</dimen>
+    <dimen name="go_onboarding_text_width">350.0dip</dimen>
+    <dimen name="go_onboarding_tooltip_size">64.0dip</dimen>
+    <dimen name="grids_padding_left_right">8.0dip</dimen>
+    <dimen name="legacy_conversion_margin">80.0dip</dimen>
+    <dimen name="mr_controller_volume_group_list_item_height">61.0dip</dimen>
+    <dimen name="mr_controller_volume_group_list_item_icon_size">18.0dip</dimen>
+    <dimen name="mr_controller_volume_group_list_max_height">132.0dip</dimen>
+    <dimen name="player_ad_engagement">48.0dip</dimen>
+    <item type="dimen" name="player_bottom_bar_button_width">@dimen/player_engagement</item>
+    <dimen name="player_engagement">70.0dip</dimen>
+    <item type="dimen" name="player_more_button_width">@dimen/player_engagement</item>
+    <dimen name="player_more_padding_left">0.0dip</dimen>
+    <dimen name="player_title_top">19.0dip</dimen>
+    <dimen name="playlist_header_padding">10.0dip</dimen>
+    <item type="dimen" name="profile_image_dimen">@dimen/list_item_image_dimension</item>
+    <item type="dimen" name="profile_image_pro_badge_dimen">@dimen/list_item_image_pro_badge_dimension</item>
+    <dimen name="profile_image_pro_badge_extra_large_padding">18.0dip</dimen>
+    <item type="dimen" name="profile_image_pro_badge_padding">@dimen/list_item_image_pro_badge_padding</item>
+    <dimen name="stations_home_artwork_size">104.0dip</dimen>
+    <dimen name="top_bottom_layout_margin">0.0dip</dimen>
+    <dimen name="ak_grid_divider_left_right_inset">8.0dip</dimen>
+</resources>

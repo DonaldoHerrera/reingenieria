@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_stats_likes">
+        <item quantity="other">Polubienia: %d</item>
+        <item quantity="one">%d polubienie</item>
+        <item quantity="few">Polubienia: %d</item>
+        <item quantity="many">Polubienia: %d</item>
+    </plurals>
+    <plurals name="activities_new_notification">
+        <item quantity="other">Nowe powiadomienia: %s</item>
+        <item quantity="one">Nowe powiadomienia: 1</item>
+        <item quantity="few">Nowe powiadomienia: %s</item>
+        <item quantity="many">Nowe powiadomienia: %s</item>
+    </plurals>
+    <plurals name="ads_app_ratings">
+        <item quantity="other">Oceny: %s</item>
+        <item quantity="one">Oceny: %s</item>
+        <item quantity="few">Oceny: %s</item>
+        <item quantity="many">Oceny: %s</item>
+    </plurals>
+    <plurals name="collections_playlists_and_albums_header_plural">
+        <item quantity="other">%dplaylist i albumów</item>
+        <item quantity="one">playlist i albumów</item>
+        <item quantity="few">%dplaylisty i albumy</item>
+        <item quantity="many">%dplaylist i albumów</item>
+    </plurals>
+    <plurals name="collections_recently_played_header_items">
+        <item quantity="other">Ostatnio odtworzone pozycje: %d</item>
+        <item quantity="one">%d ostatnio odtworzona pozycja</item>
+        <item quantity="few">Ostatnio odtworzone pozycje: %d</item>
+        <item quantity="many">Ostatnio odtworzone pozycje: %d</item>
+    </plurals>
+    <plurals name="downloading_track_of_tracks">
+        <item quantity="other">%1$d z %2$d utworów</item>
+        <item quantity="one">%1$d utwór</item>
+        <item quantity="few">%1$d z %2$d utworów</item>
+        <item quantity="many">%1$d z %2$d utworów</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">%d dzień</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dni</item>
+    </plurals>
+    <plurals name="elapsed_days_ago">
+        <item quantity="other">%d dni temu</item>
+        <item quantity="one">%d dzień temu</item>
+        <item quantity="few">%d dni temu</item>
+        <item quantity="many">%d dni temu</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d godz.</item>
+        <item quantity="one">%d godz.</item>
+        <item quantity="few">%d godz.</item>
+        <item quantity="many">%d godz.</item>
+    </plurals>
+    <plurals name="elapsed_hours_ago">
+        <item quantity="other">%d godz. temu</item>
+        <item quantity="one">%d godz. temu</item>
+        <item quantity="few">%d godz. temu</item>
+        <item quantity="many">%d godz. temu</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes_ago">
+        <item quantity="other">%d min temu</item>
+        <item quantity="one">%d min temu</item>
+        <item quantity="few">%d min temu</item>
+        <item quantity="many">%d min temu</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d mies.</item>
+        <item quantity="one">%d mies.</item>
+        <item quantity="few">%d mies.</item>
+        <item quantity="many">%d mies.</item>
+    </plurals>
+    <plurals name="elapsed_months_ago">
+        <item quantity="other">%d mies. temu</item>
+        <item quantity="one">%d mies. temu</item>
+        <item quantity="few">%d mies. temu</item>
+        <item quantity="many">%d mies. temu</item>
+    </plurals>
+    <plurals name="elapsed_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+        <item quantity="few">%d s</item>
+        <item quantity="many">%d s</item>
+    </plurals>
+    <plurals name="elapsed_seconds_ago">
+        <item quantity="other">%d s temu</item>
+        <item quantity="one">%d s temu</item>
+        <item quantity="few">%d s temu</item>
+        <item quantity="many">%d s temu</item>
+    </plurals>
+    <plurals name="elapsed_years">
+        <item quantity="other">%d lat(a)</item>
+        <item quantity="one">%d rok</item>
+        <item quantity="few">%d lat(a)</item>
+        <item quantity="many">%d lat(a)</item>
+    </plurals>
+    <plurals name="elapsed_years_ago">
+        <item quantity="other">%d lat(a) temu</item>
+        <item quantity="one">%d rok temu</item>
+        <item quantity="few">%d lat(a) temu</item>
+        <item quantity="many">%d lat(a) temu</item>
+    </plurals>
+    <plurals name="library_search_likes_hint">
+        <item quantity="other">Szukaj %d utworów</item>
+        <item quantity="one">Szukaj %d utworu</item>
+        <item quantity="few">Szukaj %d utworów</item>
+        <item quantity="many">Szukaj %d utworów</item>
+    </plurals>
+    <plurals name="number_of_liked_tracks_you_liked">
+        <item quantity="other">Liczba utworów: %d</item>
+        <item quantity="one">Liczba utworów: %d</item>
+        <item quantity="few">Liczba utworów: %d</item>
+        <item quantity="many">Liczba utworów: %d</item>
+    </plurals>
+    <plurals name="number_of_sounds">
+        <item quantity="other">Utwory: %s</item>
+        <item quantity="one">Utwory: %s</item>
+        <item quantity="few">Utwory: %s</item>
+        <item quantity="many">Utwory: %s</item>
+    </plurals>
+    <plurals name="offline_dialog_go_online_warning_content">
+        <item quantity="other">Twoje urządzenie musi być podłączone do sieci co najmniej raz na 30 dni w celu zweryfikowania subskrypcji. Aby zachować pobrane treści, podłącz urządzenie do sieci w ciągu %d dni.</item>
+        <item quantity="one">Twoje urządzenie musi być podłączone do sieci co najmniej raz na 30 dni w celu zweryfikowania subskrypcji. Aby zachować pobrane treści, podłącz urządzenie do sieci w ciągu %d dnia.</item>
+        <item quantity="few">Twoje urządzenie musi być podłączone do sieci co najmniej raz na 30 dni w celu zweryfikowania subskrypcji. Aby zachować pobrane treści, podłącz urządzenie do sieci w ciągu %d dni.</item>
+        <item quantity="many">Twoje urządzenie musi być podłączone do sieci co najmniej raz na 30 dni w celu zweryfikowania subskrypcji. Aby zachować pobrane treści, podłącz urządzenie do sieci w ciągu %d dni.</item>
+    </plurals>
+    <plurals name="offline_dialog_go_online_warning_title">
+        <item quantity="other">Zweryfikuj swoją subskrypcję w ciągu %d dni</item>
+        <item quantity="one">Zweryfikuj swoją subskrypcję w ciągu %d dnia</item>
+        <item quantity="few">Zweryfikuj swoją subskrypcję w ciągu %d dni</item>
+        <item quantity="many">Zweryfikuj swoją subskrypcję w ciągu %d dni</item>
+    </plurals>
+    <plurals name="stream_new_posts">
+        <item quantity="other">Nowe posty: %s</item>
+        <item quantity="one">Nowe posty: 1</item>
+        <item quantity="few">Nowe posty: %s</item>
+        <item quantity="many">Nowe posty: %s</item>
+    </plurals>
+    <plurals name="trackinfo_comments">
+        <item quantity="other">Komentarze dotyczące tego utworu: %d</item>
+        <item quantity="one">Komentarze dotyczące tego utworu: %d</item>
+        <item quantity="few">Komentarze dotyczące tego utworu: %d</item>
+        <item quantity="many">Komentarze dotyczące tego utworu: %d</item>
+    </plurals>
+</resources>

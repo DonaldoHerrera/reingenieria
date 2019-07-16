@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="550" android:drawable="@drawable/heartburst_0" />
+    <item android:duration="@integer/frame_20fps" android:drawable="@drawable/heartburst_1" />
+    <item android:duration="@integer/frame_20fps" android:drawable="@drawable/heartburst_2" />
+    <item android:duration="@integer/frame_20fps" android:drawable="@drawable/heartburst_3" />
+    <item android:duration="@integer/frame_20fps" android:drawable="@drawable/heartburst_4" />
+    <item android:duration="@integer/frame_20fps" android:drawable="@drawable/heartburst_5" />
+    <item android:duration="@integer/frame_20fps" android:drawable="@drawable/heartburst_6" />
+    <item android:duration="@integer/frame_20fps" android:drawable="@drawable/heartburst_7" />
+    <item android:duration="@integer/frame_20fps" android:drawable="@drawable/heartburst_8" />
+    <item android:duration="@integer/frame_20fps" android:drawable="@drawable/heartburst_9" />
+    <item android:duration="@integer/frame_20fps" android:drawable="@drawable/heartburst_10" />
+</animation-list>

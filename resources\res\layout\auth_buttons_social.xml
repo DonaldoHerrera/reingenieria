@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <androidx.appcompat.widget.AppCompatButton android:id="@+id/google_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/authentication_log_in_with_google_plus" style="@style/Onboarding.GoogleButton"/>
+    <com.soundcloud.android.view.FacebookLoginButton android:id="@+id/facebook_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" app:com_facebook_login_text="@string/authentication_log_in_with_facebook" style="@style/Onboarding.FacebookButton"/>
+</merge>

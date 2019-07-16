@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/Comments.Input.Holder">
+    <ImageView android:id="@+id/userProfileImv" android:layout_width="@dimen/comment_avatar_size" android:layout_height="@dimen/comment_avatar_size" android:src="@drawable/circular_placeholder" android:scaleType="centerCrop"/>
+    <RelativeLayout android:id="@+id/commentInputContainer" android:background="@drawable/comment_input_bg" style="@style/Comments.Input.Container">
+        <com.soundcloud.android.view.customfontviews.CustomFontEditText android:textAppearance="@style/TextAppearance.Comment.Input.EditText" android:textColor="@null" android:textColorHint="@null" android:id="@+id/commentInput" android:background="@android:color/transparent" android:hint="@string/comment_input_hint" app:custom_font="@string/interstate_light" style="@style/Comments.Input.EditText"/>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textAppearance="@style/TextAppearance.Comment.Input.Timestamp" android:id="@+id/commentTimestampTv" app:custom_font="@string/interstate_light" style="@style/Comments.Input.Timestamp"/>
+    </RelativeLayout>
+    <com.soundcloud.android.view.SendButton android:id="@+id/commentSendBtn" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp"/>
+</LinearLayout>

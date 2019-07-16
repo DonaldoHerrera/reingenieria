@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.soundcloud.android.image.CenterCropImageView android:id="@id/background_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/onboarding_bg_welcome" android:contentDescription="@null" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/GoOnboarding.SettingsContainer">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="@dimen/go_onboarding_settings_tooltip_size" android:layout_height="@dimen/go_onboarding_settings_tooltip_size" style="@style/GoOnboarding.SettingsTooltip" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:layout_width="@dimen/go_onboarding_settings_text_width" android:layout_height="wrap_content" android:text="@string/go_onboarding_offline_settings_title" style="@style/GoOnboarding.SettingsTitle" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/subtext" android:layout_width="@dimen/go_onboarding_settings_text_width" android:layout_height="wrap_content" android:text="@string/go_onboarding_offline_settings_subtext" style="@style/GoOnboarding.SettingsSubText" />
+        </LinearLayout>
+        <com.soundcloud.android.view.customfontviews.CustomFontButton android:id="@id/btn_continue" android:layout_width="@dimen/go_onboarding_settings_text_width" android:layout_height="@dimen/go_onboarding_settings_button_height" android:text="@string/go_onboarding_offline_settings_continue" style="@style/GoOnboarding.SettingsContinueButton" />
+    </RelativeLayout>
+</merge>

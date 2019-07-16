@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/blurred_background" android:background="@color/platinum" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <RelativeLayout android:id="@id/header_container" style="@style/StationInfo.HeaderContainer">
+        <include layout="@layout/station_info_artwork" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/station_type" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/artwork_container" android:layout_alignTop="@id/artwork_container" style="@style/StationInfo.StationContext" />
+        <com.soundcloud.android.view.AutoResizeTextView android:textSize="26.0sp" android:id="@id/station_title" android:layout_toRightOf="@id/artwork_container" android:layout_below="@id/station_type" style="@style/StationInfo.Title" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:gravity="bottom" android:id="@id/station_desc" android:layout_marginTop="24.0dip" android:layout_toRightOf="@id/artwork_container" android:layout_below="@id/station_title" style="@style/StationInfo.Description" />
+        <com.soundcloud.android.view.customfontviews.CustomFontToggleButton android:id="@id/toggle_like" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/artwork_container" android:layout_alignBottom="@id/artwork_container" style="@style/StationInfo.LikeButton" />
+    </RelativeLayout>
+</FrameLayout>

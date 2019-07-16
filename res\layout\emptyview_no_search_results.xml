@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/EmptyView.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/empty_search" android:contentDescription="@null" style="@style/EmptyView.Image" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:text="@string/search_empty" style="@style/EmptyView.Text.Main" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/empty_playlist_owner_message" android:text="@string/search_empty_subtext" style="@style/EmptyView.Text.Sub" />
+</LinearLayout>

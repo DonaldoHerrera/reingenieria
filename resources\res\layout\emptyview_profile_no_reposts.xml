@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/EmptyView.Container">
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="@null" app:srcCompat="@drawable/ic_directory_content" style="@style/EmptyView.Image"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:text="@string/user_reposts_empty" style="@style/EmptyView.Text.Main"/>
+</LinearLayout>

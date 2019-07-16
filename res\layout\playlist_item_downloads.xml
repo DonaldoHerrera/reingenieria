@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/playlist_list_item" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/playlist_item_downloads_view" />
+    <com.soundcloud.android.view.OverflowAnchorImageButton android:layout_gravity="end|bottom|center" android:id="@id/overflow_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemOverflowButton" />
+</FrameLayout>

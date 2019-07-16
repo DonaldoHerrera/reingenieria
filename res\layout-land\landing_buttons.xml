@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/space_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/space_xlarge" android:paddingEnd="@dimen/space_xlarge"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/btn_create_account" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/space_xlarge" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/btn_login" app:layout_constraintHorizontal_chainStyle="spread" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/button_primary_upsell" />
+    <include android:id="@id/btn_login" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/btn_create_account" app:layout_constraintTop_toTopOf="parent" layout="@layout/button_secondary_upsell" />
+</androidx.constraintlayout.widget.ConstraintLayout>

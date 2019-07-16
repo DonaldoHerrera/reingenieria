@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/artwork_overlay" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.soundcloud.android.utilities.android.MultiSwipeRefreshLayout android:id="@id/str_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/track_info_margin_vertical" android:layout_marginBottom="@dimen/track_info_margin_vertical" android:layout_marginStart="@dimen/track_info_margin_horizontal" android:layout_marginEnd="@dimen/track_info_margin_horizontal" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/ak_recycler_view" android:background="@color/white" android:scrollbars="none" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:headerDividersEnabled="false" android:overScrollMode="never" />
+    </com.soundcloud.android.utilities.android.MultiSwipeRefreshLayout>
+</FrameLayout>

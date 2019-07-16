@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.soundcloud.android.view.customfontviews.CustomFontTabLayout android:id="@+id/tab_indicator" android:paddingLeft="@dimen/search_tabs_padding" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TabsTheme.Scrollable"/>
+    <com.soundcloud.android.view.SafeViewPager android:id="@+id/search_results_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/tab_indicator"/>
+</RelativeLayout>

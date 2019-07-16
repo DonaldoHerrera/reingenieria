@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/playlist_list_item" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/selectableItemBackground">
+    <include layout="@layout/playlist_item_downloads_view"/>
+    <com.soundcloud.android.view.OverflowAnchorImageButton android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/overflow_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemOverflowButton"/>
+</FrameLayout>

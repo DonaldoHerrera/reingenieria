@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/discovery_single_content_selection_card" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Discovery.Selection.Card">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/selectableItemBackground">
+        <androidx.legacy.widget.Space android:layout_width="match_parent" android:layout_height="24dp"/>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/single_card_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Discovery.Selection.Title"/>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/single_card_description" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Discovery.Selection.Description"/>
+        <RelativeLayout android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.soundcloud.android.view.ParallaxImageView android:id="@+id/single_card_artwork" android:layout_height="164dp" app:foreground="@drawable/artwork_border" style="@style/Stream.Image.Track"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/single_card_social_proof_container" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="20dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.soundcloud.android.view.CircularBorderImageView android:id="@+id/single_card_user_artwork_single" android:layout_marginTop="4dp" android:layout_weight="0" app:cbiv_borderWidth="0dp" style="@style/Discovery.Selection.SocialProofImage"/>
+            <com.soundcloud.android.view.CircularBorderImageView android:id="@+id/single_card_user_artwork_1" android:layout_weight="0" style="@style/Discovery.Selection.SocialProofImage"/>
+            <com.soundcloud.android.view.CircularBorderImageView android:id="@+id/single_card_user_artwork_2" android:layout_weight="0" style="@style/Discovery.Selection.SocialProofImageOverlap"/>
+            <com.soundcloud.android.view.CircularBorderImageView android:id="@+id/single_card_user_artwork_3" android:layout_weight="0" style="@style/Discovery.Selection.SocialProofImageOverlap"/>
+            <com.soundcloud.android.view.CircularBorderImageView android:id="@+id/single_card_user_artwork_4" android:layout_weight="0" style="@style/Discovery.Selection.SocialProofImageOverlap"/>
+            <com.soundcloud.android.view.CircularBorderImageView android:id="@+id/single_card_user_artwork_5" android:layout_weight="0" style="@style/Discovery.Selection.SocialProofImageOverlap"/>
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/single_card_social_proof" style="@style/Discovery.Selection.SocialProofText"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

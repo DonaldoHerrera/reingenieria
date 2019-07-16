@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.soundcloud.android.utilities.android.MultiSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/str_layout" android:background="@color/page_background" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/ak_recycler_view" android:scrollbars="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:headerDividersEnabled="false"/>
+</com.soundcloud.android.utilities.android.MultiSwipeRefreshLayout>

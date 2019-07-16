@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/raven" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/comments_body" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.soundcloud.android.playback.ui.view.PlayerTrackArtworkView android:id="@id/artwork_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/artwork_overlay_dark" style="@style/PlayerTrackArtworkOverlay" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/comments_snackbar_anchor" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/ak_recycler_view" android:paddingTop="@dimen/comment_list_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/space_small" android:paddingEnd="@dimen/space_small" style="@style/PlayerOverlay.RecyclerView" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+            <include android:id="@id/commentInputContent" layout="@layout/comment_input_view" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.soundcloud.android.view.GlassLinearLayout android:id="@id/comments_header" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:source="@id/comments_body" style="@style/PlayerOverlay.HeaderBackground">
+        <ImageButton android:id="@id/close_comments" android:background="@null" android:padding="@dimen/space_small" android:layout_width="@dimen/player_overlay_dialog_close_button_size" android:layout_height="fill_parent" android:src="@drawable/white_cross" android:scaleType="center" android:contentDescription="@string/accessibility_close" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/comments_header_title" android:text="@string/comments_header" app:custom_font="@string/interstate_light" style="@style/PlayerOverlay.HeaderTitle" />
+    </com.soundcloud.android.view.GlassLinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

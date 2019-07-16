@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/error_view" style="@style/EmptyView.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ak_emptyview_error_server" android:contentDescription="@null" style="@style/EmptyView.Image" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/stream_error_text" android:text="@string/empty_server_error" style="@style/EmptyView.Text.Main" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/empty_playlist_owner_message" android:text="@string/empty_server_error_sub" style="@style/EmptyView.Text.Sub" />
+</LinearLayout>

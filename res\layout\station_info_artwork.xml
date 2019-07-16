@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:id="@id/artwork_container" android:layout_width="@dimen/stations_home_artwork_size" android:layout_height="@dimen/stations_home_artwork_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sc="http://schemas.android.com/apk/res-auto">
+    <com.soundcloud.android.view.ForegroundImageView android:id="@id/artwork" android:layout_width="fill_parent" android:layout_height="wrap_content" sc:foregroundDrawable="@drawable/artwork_border" sc:square="true" />
+    <ImageButton android:layout_gravity="center" android:id="@id/btn_station_play" android:visibility="visible" android:contentDescription="@string/accessibility_play" style="@style/HeaderPlay" />
+</FrameLayout>

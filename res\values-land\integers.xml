@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ak_default_grid_columns">2</integer>
+    <integer name="collection_grid_span_count">3</integer>
+    <integer name="collection_preview_thumbnail_count">5</integer>
+    <item type="integer" name="comment_guideline_left">0.3</item>
+    <item type="integer" name="comment_guideline_right">0.7</item>
+    <integer name="grids_num_columns">2</integer>
+    <integer name="timestamp_animate_percentage">25</integer>
+    <integer name="user_profile_card_grid_span_count">2</integer>
+    <integer name="waveform_ratio_bottom">4</integer>
+    <integer name="waveform_ratio_top">5</integer>
+</resources>

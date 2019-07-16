@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/user_list_item" style="@style/ListItemLayout">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.soundcloud.android.view.CircularBorderImageView android:id="@id/image" style="@style/ListItemImage.User" />
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/pro_badge" android:visibility="gone" android:src="@drawable/pro_badge_small" android:contentDescription="@string/accessibility_pro_badge" style="@style/ListItemImage.User.ProBadge" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textColor="@color/list_primary" android:id="@id/list_item_header" style="@style/ListItemText.SecondaryText" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textColor="@color/list_secondary" android:id="@id/list_item_subheader" style="@style/ListItemText.PrimaryText" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/list_item_counter" android:drawableLeft="@drawable/ic_followers_grey_vector" style="@style/ListItemText.Numeric.Stats" />
+        </LinearLayout>
+        <com.soundcloud.android.view.customfontviews.CustomFontToggleButton android:id="@id/toggle_btn_follow" android:focusable="false" android:visibility="gone" style="@style/Profile.ToggleButton.Follow.List" />
+    </LinearLayout>
+</FrameLayout>

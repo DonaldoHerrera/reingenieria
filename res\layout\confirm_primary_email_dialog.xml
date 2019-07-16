@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/DialogContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/confirm_primary_email_title" style="@style/MaterialDialog.Title" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/dialog_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/confirm_primary_email_body" style="@style/MaterialDialog.Content" />
+</LinearLayout>

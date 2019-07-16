@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/selectableItemBackground">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textSize="14sp" android:textColor="@color/ash" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="@dimen/search_suggestion_item_height" android:layout_marginLeft="@dimen/search_clear_history_left_margin" android:text="@string/clear_search_history" android:layout_marginStart="@dimen/search_clear_history_left_margin" style="@style/TextAppearance.SoundCloudLightFont"/>
+    <View style="@style/Divider.1.Item"/>
+</LinearLayout>

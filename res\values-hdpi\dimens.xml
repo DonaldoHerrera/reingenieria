@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="com_appboy_card_background_border_bottom">1.5dip</dimen>
+    <dimen name="com_appboy_card_background_border_left">1.5dip</dimen>
+    <dimen name="com_appboy_card_background_border_right">1.5dip</dimen>
+    <dimen name="com_appboy_card_background_border_top">1.0dip</dimen>
+    <dimen name="list_divider_horizontal_height">1.0px</dimen>
+    <dimen name="list_divider_vertical_width">1.0px</dimen>
+    <dimen name="list_icon_size">67.0px</dimen>
+    <dimen name="record_progress_icon_width">100.0px</dimen>
+    <dimen name="share_progress_icon_height">100.0px</dimen>
+    <dimen name="cards_artwork_bottom_inner_padding">16.0dip</dimen>
+    <dimen name="cards_artwork_inner_padding">12.0dip</dimen>
+</resources>

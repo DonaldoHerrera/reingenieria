@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/Search.Suggestion.Container">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.soundcloud.android.view.CircularBorderImageView android:id="@+id/icon" android:src="@drawable/cloud_no_logo_sm" app:cbiv_borderColor="@color/user_image_border_color" app:cbiv_borderWidth="@dimen/user_image_border_width" style="@style/Search.Suggestion.Icon"/>
+        <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/pro_badge" android:contentDescription="@string/accessibility_pro_badge" style="@style/Search.Suggestion.Icon.ProBadge"/>
+    </FrameLayout>
+    <include layout="@layout/search_suggestion_content"/>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.soundcloud.android.view.customfontviews.CustomFontButton android:id="@id/buy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/legacy_conversion_margin" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/legacy_conversion_margin" style="@style/ConversionButton" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:layout_gravity="center_horizontal" android:id="@id/product_choice_restrictions" android:layout_marginBottom="12.0dip" style="@style/ConversionText.Restrictions.Product" />
+    <View android:background="@color/silver" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+</merge>

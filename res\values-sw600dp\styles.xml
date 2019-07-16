@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Appboy.InAppMessage.Full" parent="@style/Appboy.InAppMessage">
+        <item name="android:background">@drawable/com_appboy_inappmessage_modal_background</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_width">375.0dip</item>
+        <item name="android:layout_height">600.0dip</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="Auth.Container" parent="@style/Auth">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingTop">@dimen/auth_container_padding_top</item>
+        <item name="android:layout_width">@dimen/auth_social_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

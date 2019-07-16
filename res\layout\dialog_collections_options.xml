@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/collections_playlists_options_dialog" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/collections_options_dialog_header" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/collections_options_header_filters" style="@style/ListSeparator" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="8.0dip" android:divider="@drawable/horizontal_spacer" android:showDividers="middle">
+        <com.soundcloud.android.view.customfontviews.CustomFontToggleButton android:id="@id/show_posts" android:textOn="@string/collections_options_toggle_created" android:textOff="@string/collections_options_toggle_created" style="@style/Collections.OptionsToggle" />
+        <com.soundcloud.android.view.customfontviews.CustomFontToggleButton android:id="@id/show_likes" android:textOn="@string/collections_options_toggle_likes" android:textOff="@string/collections_options_toggle_likes" style="@style/Collections.OptionsToggle" />
+        <com.soundcloud.android.view.customfontviews.CustomFontToggleButton android:id="@id/show_offline" android:visibility="gone" android:textOn="@string/collections_options_toggle_offline" android:textOff="@string/collections_options_toggle_offline" style="@style/Collections.OptionsToggle" />
+    </LinearLayout>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/collections_options_dialog_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/collections_options_header_sorting" style="@style/ListSeparator" />
+    <RadioGroup android:id="@id/sort_options" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkedButton="@id/sort_by_creation_date">
+        <RadioButton android:id="@id/sort_by_updated_at" android:text="@string/collections_options_dialog_sort_by_updated_at" style="@style/Collections.RadioButton" />
+        <RadioButton android:id="@id/sort_by_added_at" android:text="@string/collections_options_dialog_sort_by_added_at" style="@style/Collections.RadioButton" />
+        <RadioButton android:id="@id/sort_by_title" android:text="@string/collections_options_dialog_sort_by_title" style="@style/Collections.RadioButton" />
+    </RadioGroup>
+</LinearLayout>

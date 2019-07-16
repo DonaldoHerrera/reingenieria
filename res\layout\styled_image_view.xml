@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.soundcloud.android.view.ForegroundImageView android:id="@id/square_artwork" android:layout_width="fill_parent" android:layout_height="wrap_content" app:foregroundDrawable="@drawable/artwork_border" app:square="true" />
+    <com.soundcloud.android.view.SquareImageView android:id="@id/circular_artwork" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center" android:id="@id/station_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_station_indicator" android:contentDescription="@string/accessibility_station" />
+</merge>

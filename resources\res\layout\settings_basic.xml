@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/page_background" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="15">
+            <include layout="@layout/toolbar"/>
+        </FrameLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <View style="@style/Divider.Combined"/>
+    <com.soundcloud.android.soul.components.cells.standard.CellStandard android:id="@+id/basic_settings_pref_clear_cache" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/pref_clear_cache"/>
+    <View style="@style/Divider.1.Silver"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/pref_clear_cache_desc" style="@style/Bars.Context.H7.Transparent"/>
+    <View style="@style/Divider.16.Mist"/>
+    <View style="@style/Divider.1.Silver"/>
+    <com.soundcloud.android.soul.components.cells.standard.CellStandard android:id="@+id/basic_settings_pref_popup_comments_in_player" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/pref_waveform_comments" app:showToggle="true"/>
+    <View style="@style/Divider.1.Silver"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/pref_waveform_comments_desc" style="@style/Bars.Context.H7.Transparent"/>
+    <View style="@style/Divider.16.Mist"/>
+</LinearLayout>

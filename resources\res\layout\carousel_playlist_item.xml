@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/carousel_playlist_item" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="?attr/selectableItemBackground">
+    <com.soundcloud.android.image.StyledImageView android:id="@+id/artwork" android:layout_width="@dimen/carousel_image_size" android:layout_height="@dimen/carousel_image_size" android:layout_marginBottom="8dp"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/indicator_views" android:layout_below="@+id/artwork" style="@style/Carousel.ItemTitle"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/indicator_views" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_below="@+id/artwork" android:layout_alignParentRight="true">
+        <ImageView android:id="@+id/like_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_like_grey_vector"/>
+        <ImageView android:id="@+id/private_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock_grey_12_vector" android:contentDescription="@string/accessibility_private_playlist"/>
+        <com.soundcloud.android.view.DownloadImageView android:id="@+id/offline_state_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DownloadItem"/>
+        <ImageView android:id="@+id/no_network_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/entity_no_network" android:contentDescription="@string/accessibility_no_network"/>
+    </LinearLayout>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/secondary_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/title" style="@style/Carousel.ItemArtist"/>
+</RelativeLayout>

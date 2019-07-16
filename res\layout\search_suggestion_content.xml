@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/search_suggestion_left_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/title" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/Search.Suggestion.Text" />
+    <ImageView android:id="@id/iv_search_type" style="@style/Search.Suggestion.Icon.Type" />
+</LinearLayout>

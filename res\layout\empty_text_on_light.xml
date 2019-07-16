@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textSize="@dimen/text_xxlarge" android:textColor="@color/raven" android:gravity="center" android:id="@id/empty_text_tagline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:minHeight="24.0dip" android:lineSpacingExtra="4.0dip" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textSize="15.0sp" android:textColor="@color/ash" android:gravity="center" android:id="@id/empty_text_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="18.0dip" android:maxLines="2" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/playlist_list_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/selectableItemBackground">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/card_padding_horizontal" android:paddingTop="20dp" android:paddingRight="@dimen/card_padding_horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/playlist_card"/>
+        <include layout="@layout/default_card_footer"/>
+    </LinearLayout>
+</FrameLayout>

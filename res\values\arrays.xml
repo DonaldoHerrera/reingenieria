@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ak_number_suffixes">
+        <item></item>
+        <item>@string/ak_number_suffix_k</item>
+        <item>@string/ak_number_suffix_m</item>
+        <item>@string/ak_number_suffix_b</item>
+    </string-array>
+    <string-array name="alpha_reminder_images">
+        <item>https://storage.googleapis.com/listener_alpha_images/reminders/25loiv.jpg</item>
+        <item>https://storage.googleapis.com/listener_alpha_images/reminders/lumberg.png</item>
+        <item>https://storage.googleapis.com/listener_alpha_images/reminders/sadpepe.jpg</item>
+        <item>https://storage.googleapis.com/listener_alpha_images/reminders/clippy.png</item>
+        <item>https://storage.googleapis.com/listener_alpha_images/reminders/picard.jpg</item>
+        <item>https://storage.googleapis.com/listener_alpha_images/reminders/uncle_sam.png</item>
+    </string-array>
+    <string-array name="alpha_thanks_images">
+        <item>https://storage.googleapis.com/listener_alpha_images/thanks/greg.jpg</item>
+        <item>https://storage.googleapis.com/listener_alpha_images/thanks/obama_approves.png</item>
+        <item>https://storage.googleapis.com/listener_alpha_images/thanks/fresh.jpg</item>
+        <item>https://storage.googleapis.com/listener_alpha_images/thanks/doge.png</item>
+        <item>https://storage.googleapis.com/listener_alpha_images/thanks/mvp.png</item>
+        <item>https://storage.googleapis.com/listener_alpha_images/thanks/perun.png</item>
+    </string-array>
+    <string-array name="audio_companion_image_keys">
+        <item>@string/audio_ad_inject_no_companion_key</item>
+        <item>@string/audio_ad_inject_small_image_companion_key</item>
+        <item>@string/audio_ad_inject_large_image_companion_key</item>
+    </string-array>
+    <string-array name="audio_lb_html_keys">
+        <item>@string/audio_ad_inject_no_html_lb_key</item>
+        <item>@string/video_ad_inject_html_lb_key</item>
+    </string-array>
+    <string-array name="audio_lb_image_keys">
+        <item>@string/audio_ad_inject_no_image_lb_key</item>
+        <item>@string/audio_ad_inject_image_lb_key</item>
+    </string-array>
+    <array name="cast_expanded_controller_default_control_buttons">
+        <item>@id/cast_button_type_closed_caption</item>
+        <item>@id/cast_button_type_skip_previous</item>
+        <item>@id/cast_button_type_skip_next</item>
+        <item>@id/cast_button_type_mute_toggle</item>
+    </array>
+    <array name="cast_mini_controller_default_control_buttons">
+        <item>@id/cast_button_type_empty</item>
+        <item>@id/cast_button_type_empty</item>
+        <item>@id/cast_button_type_play_pause_toggle</item>
+    </array>
+    <string-array name="companion_html_keys">
+        <item>@string/audio_ad_inject_no_html_companion_key</item>
+        <item>@string/audio_ad_inject_html_companion_responsive_key</item>
+        <item>@string/audio_ad_inject_html_companion_non_responsive_key</item>
+    </string-array>
+    <string-array name="companion_html_values">
+        <item>@string/ad_inject_no_companion_value</item>
+        <item>@string/ad_inject_html_companion_responsive_value</item>
+        <item>@string/ad_inject_html_companion_non_responsive_value</item>
+    </string-array>
+    <string-array name="companion_image_values">
+        <item>@string/ad_inject_no_companion_value</item>
+        <item>@string/ad_inject_small_image_companion_value</item>
+        <item>@string/ad_inject_large_image_companion_value</item>
+    </string-array>
+    <string-array name="dev_drawer_day_night_keys">
+        <item>@string/dev_drawer_day_night_auto_key</item>
+        <item>@string/dev_drawer_day_night_system_key</item>
+        <item>@string/dev_drawer_day_night_day_key</item>
+        <item>@string/dev_drawer_day_night_night_key</item>
+    </string-array>
+    <string-array name="dev_drawer_day_night_values">
+        <item>@string/dev_drawer_day_night_auto_value</item>
+        <item>@string/dev_drawer_day_night_system_value</item>
+        <item>@string/dev_drawer_day_night_day_value</item>
+        <item>@string/dev_drawer_day_night_night_value</item>
+    </string-array>
+    <string-array name="feedback_all">
+        <item>@string/feedback_sign_in_issue</item>
+        <item>@string/feedback_playback_issue</item>
+        <item>@string/feedback_other_issue</item>
+    </string-array>
+    <string-array name="feedback_general">
+        <item>@string/feedback_playback_issue</item>
+        <item>@string/feedback_other_issue</item>
+    </string-array>
+    <string-array name="feedback_sign_in">
+        <item>@string/feedback_sign_in_issue</item>
+        <item>@string/feedback_other_issue</item>
+    </string-array>
+    <string-array name="lb_html_values">
+        <item>@string/ad_inject_no_lb_value</item>
+        <item>@string/ad_inject_html_lb_value</item>
+    </string-array>
+    <string-array name="lb_image_values">
+        <item>@string/ad_inject_no_lb_value</item>
+        <item>@string/ad_inject_image_lb_value</item>
+    </string-array>
+    <string-array name="video_html_lb_keys">
+        <item>@string/video_ad_inject_no_html_lb_key</item>
+        <item>@string/video_ad_inject_html_lb_key</item>
+    </string-array>
+    <string-array name="video_image_lb_keys">
+        <item>@string/video_ad_inject_no_image_lb_key</item>
+        <item>@string/video_ad_inject_image_lb_key</item>
+    </string-array>
+    <string-array name="video_keys">
+        <item>@string/ad_injection_letterbox_key</item>
+        <item>@string/ad_injection_fullscreen_key</item>
+    </string-array>
+    <string-array name="video_values">
+        <item>@string/ad_injection_letterbox_value</item>
+        <item>@string/ad_injection_fullscreen_value</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@+id/collapsing_toolbar" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_scrollFlags="3" app:statusBarScrim="@android:color/transparent">
+            <include android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_collapseMode="0" layout="@layout/profile_header"/>
+            <View android:id="@+id/header_scrim" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <include layout="@layout/transparent_toolbar_with_gradient"/>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        <com.soundcloud.android.view.customfontviews.CustomFontTabLayout android:id="@+id/tab_indicator_fixed" android:background="@color/white" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:foregroundGravity="bottom" app:layout_collapseMode="1" style="@style/TabsTheme.Fixed.Elevated"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/scrollingview_content_bottom_padding_behavior">
+        <androidx.viewpager.widget.ViewPager android:id="@+id/profile_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <View android:id="@+id/snackbar_anchor" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</merge>

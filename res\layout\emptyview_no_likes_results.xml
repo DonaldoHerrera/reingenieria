@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/track_likes_empty_container" android:background="@color/page_background" android:padding="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/UniflowEmptyView.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty_like" android:contentDescription="@null" style="@style/UniflowEmptyView.Image" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/list_empty_you_likes_message" android:layout_weight="0.0" style="@style/UniflowEmptyView.Text" />
+</LinearLayout>

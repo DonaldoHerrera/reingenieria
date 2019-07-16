@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/recently_played_bucket" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Collections.Bucket"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/recently_played_header" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/collections_recently_played_header" style="@style/Collections.BucketHeader" />
+    <View style="@style/Divider.1.Item" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recently_played_carousel" android:paddingLeft="16.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Collections.BucketCarousel" />
+    <View style="@style/Divider.1.Item" />
+    <FrameLayout android:id="@id/recently_played_view_all" style="@style/ViewAllContainer">
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/sounds_view_all_text" android:text="@string/collections_view_all_recently_played" style="@style/ViewAllText" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="?android:attr/listPreferredItemHeight">
+        <ProgressBar android:gravity="center" android:id="@+id/uniflow_list_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:layout_centerInParent="true"/>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textColor="@color/white" android:gravity="center" android:id="@+id/uniflow_list_retry" android:background="@drawable/comment_retry_loading_next_page_bg" android:paddingLeft="12dp" android:paddingTop="10dp" android:paddingRight="12dp" android:paddingBottom="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/ak_error_pager_failed" android:layout_centerInParent="true" android:paddingStart="12dp" android:paddingEnd="12dp" style="@style/EmptyViewContent"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.soundcloud.android.view.ParallaxImageView android:id="@+id/image" app:foreground="@drawable/artwork_border" style="@style/Cards.Image.Playlist"/>
+    <com.soundcloud.android.view.JaggedTextView android:id="@+id/creator" android:layout_alignTop="@+id/image" style="@style/Cards.ArtistText"/>
+    <com.soundcloud.android.view.JaggedTextView android:id="@+id/title" android:layout_below="@+id/creator" style="@style/Cards.TitleText"/>
+</RelativeLayout>

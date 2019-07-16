@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.soundcloud.android.view.NestedCoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/appbar_with_toolbar" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/scrollingview_content_bottom_padding_behavior">
+        <LinearLayout android:orientation="vertical" android:id="@id/profile_header" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/More">
+            <View style="@style/Divider.16.Mist" />
+            <View style="@style/Divider.1.Section" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header_layout" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" style="@style/More.Header">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.soundcloud.android.view.CircularBorderImageView android:id="@id/image" style="@style/More.HeaderImage" />
+                    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/pro_badge" android:contentDescription="@string/accessibility_pro_badge" style="@style/More.HeaderImage.ProBadge" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/username" style="@style/More.HeaderText.Username" />
+                    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/profile_link" android:text="@string/more_view_public_profile" style="@style/More.HeaderText.ProfileLink" />
+                </LinearLayout>
+            </LinearLayout>
+            <View style="@style/Divider.1.Section" />
+            <View style="@style/Divider.16.Mist" />
+            <View style="@style/Divider.1.Section" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/more_activity_link" android:text="@string/more_activity" style="@style/More.NavItem" />
+            <View style="@style/Divider.1.Item" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/more_record_link" android:text="@string/more_record" style="@style/More.NavItem" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/more_upload_link" android:text="@string/more_upload" style="@style/More.NavItem" />
+            <View style="@style/Divider.1.Item" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/more_settings_link" android:text="@string/more_settings" style="@style/More.NavItem" />
+            <View style="@style/Divider.1.Item" />
+            <LinearLayout android:orientation="vertical" android:id="@id/more_creators_link_block" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/more_creators_link" android:text="@string/more_activity" android:layout_weight="2.0" style="@style/More.CreatorNavItem" />
+                    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:text="@string/more_creators_link_right_text" android:layout_weight="1.0" style="@style/More.CreatorNavItem.Right" />
+                </LinearLayout>
+                <View style="@style/Divider.1.Item" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/more_subscription_block" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:id="@id/subscription_status" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:text="@string/more_subscription" android:layout_weight="2.0" style="@style/More.NavItem" />
+                    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/more_subscription_tier" android:text="@string/tier_free" android:layout_weight="1.0" style="@style/More.NavItem.Right" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/more_upsell_block" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/more_upsell" style="@style/More.NavItem.Upsell" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/more_upsell_student_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <View style="@style/Divider.1.Item" />
+                        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:text="@string/more_student_upsell" style="@style/More.NavItem.Upsell" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View style="@style/Divider.1.Item" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/more_restore_subscription_block" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/more_restore_subscription" android:text="@string/more_subscription_check" style="@style/More.NavItem" />
+            </LinearLayout>
+            <View style="@style/Divider.1.Section" />
+            <View style="@style/Divider.16.Mist" />
+            <View style="@style/Divider.1.Section" />
+            <LinearLayout android:orientation="vertical" android:id="@id/more_report_bug" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.soundcloud.android.view.customfontviews.CustomFontTextView android:duplicateParentState="true" android:text="@string/more_report_bug" style="@style/More.NavItem" />
+                <View style="@style/Divider.1.Item" />
+            </LinearLayout>
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/more_help_center_link" android:text="@string/more_help_center" style="@style/More.NavItem" />
+            <View style="@style/Divider.1.Item" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/more_legal_link" android:text="@string/more_legal" style="@style/More.NavItem" />
+            <View style="@style/Divider.1.Section" />
+            <View style="@style/Divider.16.Mist" />
+            <View style="@style/Divider.1.Section" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/more_sign_out_link" android:text="@string/more_sign_out" style="@style/More.NavItem" />
+            <View android:id="@id/more_force_ad_testing_top_divider" style="@style/Divider.Combined" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/more_force_ad_testing_id" android:text="@string/force_ad_testing" style="@style/More.NavItem" />
+            <View style="@style/Divider.1.Section" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/more_version_text" style="@style/More.VersionText" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.soundcloud.android.view.NestedCoordinatorLayout>

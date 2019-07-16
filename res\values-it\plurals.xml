@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_stats_likes">
+        <item quantity="other">%d Mi piace</item>
+        <item quantity="one">%d Mi piace</item>
+    </plurals>
+    <plurals name="activities_new_notification">
+        <item quantity="other">%s nuove notifiche</item>
+        <item quantity="one">1 nuova notifica</item>
+    </plurals>
+    <plurals name="ads_app_ratings">
+        <item quantity="other">%s valutazioni</item>
+        <item quantity="one">%s valutazione</item>
+    </plurals>
+    <plurals name="collections_playlists_and_albums_header_plural">
+        <item quantity="other">%d playlist e album</item>
+        <item quantity="one">Playlist e album</item>
+    </plurals>
+    <plurals name="collections_recently_played_header_items">
+        <item quantity="other">%d elementi ascoltati di recente</item>
+        <item quantity="one">%d elemento ascoltato di recente</item>
+    </plurals>
+    <plurals name="downloading_track_of_tracks">
+        <item quantity="other">%1$d di %2$d tracce</item>
+        <item quantity="one">%1$d traccia</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d giorni</item>
+        <item quantity="one">%d giorno</item>
+    </plurals>
+    <plurals name="elapsed_days_ago">
+        <item quantity="other">%d giorni fa</item>
+        <item quantity="one">%d giorno fa</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d ora</item>
+    </plurals>
+    <plurals name="elapsed_hours_ago">
+        <item quantity="other">%d ore fa</item>
+        <item quantity="one">%d ora fa</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d minuti</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="elapsed_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">%d minuto fa</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d mesi</item>
+        <item quantity="one">%d mese</item>
+    </plurals>
+    <plurals name="elapsed_months_ago">
+        <item quantity="other">%d mesi fa</item>
+        <item quantity="one">%d mese fa</item>
+    </plurals>
+    <plurals name="elapsed_seconds">
+        <item quantity="other">%d secondi</item>
+        <item quantity="one">%d secondo</item>
+    </plurals>
+    <plurals name="elapsed_seconds_ago">
+        <item quantity="other">%d secondi fa</item>
+        <item quantity="one">%d secondo fa</item>
+    </plurals>
+    <plurals name="elapsed_years">
+        <item quantity="other">%d anni</item>
+        <item quantity="one">%d anno</item>
+    </plurals>
+    <plurals name="elapsed_years_ago">
+        <item quantity="other">%d anni fa</item>
+        <item quantity="one">%d anno fa</item>
+    </plurals>
+    <plurals name="library_search_likes_hint">
+        <item quantity="other">Cerca %d tracce</item>
+        <item quantity="one">Cerca %d traccia</item>
+    </plurals>
+    <plurals name="number_of_liked_tracks_you_liked">
+        <item quantity="other">%d tracce</item>
+        <item quantity="one">%d traccia</item>
+    </plurals>
+    <plurals name="number_of_sounds">
+        <item quantity="other">%s tracce</item>
+        <item quantity="one">%s traccia</item>
+    </plurals>
+    <plurals name="offline_dialog_go_online_warning_content">
+        <item quantity="other">"Il dispositivo deve essere in modalità online almeno una volta ogni 30 giorni per verificare l'abbonamento. Hai ancora %d giorni per ritornare online e continuare ad accedere ai contenuti scaricati."</item>
+        <item quantity="one">"Il dispositivo deve essere in modalità online almeno una volta ogni 30 giorni per verificare l'abbonamento. Hai ancora %d giorno per ritornare online e continuare ad accedere ai contenuti scaricati."</item>
+    </plurals>
+    <plurals name="offline_dialog_go_online_warning_title">
+        <item quantity="other">"Verifica l'abbonamento entro %d giorni"</item>
+        <item quantity="one">"Verifica l'abbonamento entro %d giorno"</item>
+    </plurals>
+    <plurals name="stream_new_posts">
+        <item quantity="other">%s nuovi post</item>
+        <item quantity="one">1 nuovo post</item>
+    </plurals>
+    <plurals name="trackinfo_comments">
+        <item quantity="other">%d commenti su questa traccia</item>
+        <item quantity="one">%d commento su questa traccia</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/search_text_bg" android:paddingLeft="12dp" android:layout_width="match_parent" android:layout_height="40dp" android:paddingStart="12dp" android:layout_marginStart="12dp" android:layout_marginEnd="12dp">
+        <com.soundcloud.android.view.customfontviews.CustomFontEditText android:textColorHint="@color/ash" android:id="@+id/search_edit_text" android:layout_width="0dp" android:layout_height="match_parent" android:hint="@string/search_hint" android:layout_weight="1" android:imeOptions="actionUnspecified|actionNone|actionGo|actionSearch|flagNoExtractUi" style="@style/Search.TextView.Input"/>
+        <ImageButton android:id="@+id/search_close" android:background="?attr/selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/search_close_icon_margin_horizontal" android:layout_marginRight="@dimen/search_close_icon_margin_horizontal" android:src="@drawable/close_icon" android:contentDescription="@string/accessibility_close"/>
+    </LinearLayout>
+</FrameLayout>

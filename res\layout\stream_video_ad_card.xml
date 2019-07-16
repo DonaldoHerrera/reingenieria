@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/stream_video_ad" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/card_padding_horizontal" android:paddingRight="@dimen/card_padding_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/header_container" style="@style/Cards.Header">
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/ad_item" android:layout_marginLeft="0.0dip" android:drawableLeft="@drawable/inset_promoted_icon" android:drawablePadding="3.0dip" style="@style/Cards.SecondaryHeaderText" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/why_ads" android:text="@string/ads_why_ads" android:layout_alignParentRight="true" style="@style/Stream.Button.WhyAds" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/video_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:id="@id/video_background" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/video_view" android:layout_alignBottom="@id/video_view" />
+            <com.soundcloud.android.view.AspectRatioTextureView android:layout_gravity="center" android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StreamVideo" />
+            <com.soundcloud.android.view.CircularProgressBar android:id="@id/video_progress" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerInParent="true" />
+            <ImageButton android:id="@id/player_play" android:layout_centerInParent="true" style="@style/AdVideoButton.Play" />
+            <View android:id="@id/top_gradient" android:background="@drawable/player_gradient_top" android:layout_width="fill_parent" android:layout_height="35.0dip" />
+            <com.soundcloud.android.view.customfontviews.CustomFontButton android:id="@id/video_fullscreen_control" style="@style/AdVideoButton.Fullscreen" />
+            <com.soundcloud.android.view.IconToggleButton android:id="@id/video_volume_control" android:visibility="visible" android:checked="false" android:layout_alignParentRight="true" style="@style/AdVideoButton.Volume" />
+            <View android:id="@id/viewability_layer" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/video_view" android:layout_alignBottom="@id/video_view" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/footer_with_title" android:paddingBottom="18.0dip" style="@style/Cards.Footer">
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/title" android:layout_toLeftOf="@id/call_to_action_with_title" android:layout_alignBaseline="@id/call_to_action_with_title" android:layout_alignParentLeft="true" style="@style/Stream.Text.VideoTitle" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/call_to_action_with_title" android:layout_alignParentRight="true" style="@style/Stream.Button.CallToAction.Video" />
+        </RelativeLayout>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/call_to_action_without_title" android:layout_width="fill_parent" android:layout_marginBottom="24.0dip" style="@style/Stream.Button.CallToAction.Video" />
+    </LinearLayout>
+</FrameLayout>

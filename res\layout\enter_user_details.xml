@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.soundcloud.android.onboarding.auth.LegacyEnterUserDetailsLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/SignUp.Content">
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textAppearance="?android:textAppearanceMediumInverse" android:layout_marginBottom="10.0dip" android:text="@string/onboarding_create_account" style="@style/SignUp.Info" />
+        <TableLayout style="@style/SignUp.LoginForm">
+            <TableRow style="@style/SignUp.LabelRow">
+                <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/age_label" android:text="@string/age" style="@style/SignUp.Label" />
+                <com.soundcloud.android.view.customfontviews.CustomFontEditText android:id="@id/txt_enter_age" android:padding="@dimen/signup_label_padding" android:hint="@string/enter_age_hint" android:maxLength="3" android:drawablePadding="@dimen/signup_done_drawable_padding" android:inputType="number" android:requiresFadingEdge="horizontal" style="@style/SignUp.TextEntry" />
+            </TableRow>
+            <TableRow style="@style/SignUp.SeparatorRow">
+                <View style="@style/SignUp.SeparatorView" />
+            </TableRow>
+            <TableRow style="@style/SignUp.LabelRow">
+                <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/gender_label" android:text="@string/gender" style="@style/SignUp.Label" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/txt_choose_gender" android:padding="@dimen/signup_label_padding" android:layout_width="wrap_content" android:hint="@string/onboarding_indicate_gender" android:requiresFadingEdge="horizontal" style="@style/SignUp.TextEntry" />
+                    <View android:id="@id/after_enter_gender_vr" android:visibility="gone" android:layout_height="0.0dip" android:layout_marginTop="@dimen/signup_label_padding" android:layout_marginBottom="@dimen/signup_label_padding" android:layout_toRightOf="@id/txt_choose_gender" android:layout_alignTop="@id/txt_choose_gender" android:layout_alignBottom="@id/txt_choose_gender" android:layout_toEndOf="@id/txt_choose_gender" style="@style/SignUp.SeparatorView.Vertical" />
+                    <com.soundcloud.android.view.customfontviews.CustomFontEditText android:id="@id/txt_enter_custom_gender" android:padding="@dimen/signup_label_padding" android:visibility="gone" android:hint="@string/onboarding_custom_gender_hint" android:maxLength="16" android:requiresFadingEdge="horizontal" android:layout_toEndOf="@id/after_enter_gender_vr" style="@style/SignUp.TextEntry" />
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/tour_buttons_height" android:layout_marginTop="10.0dip">
+            <com.soundcloud.android.view.customfontviews.CustomFontButton android:id="@id/btn_cancel" android:layout_height="@dimen/tour_buttons_height" android:text="@string/btn_cancel" android:layout_marginEnd="10.0dip" style="@style/Onboarding.CancelButton" />
+            <com.soundcloud.android.view.customfontviews.CustomFontButton android:id="@id/btn_signup" android:layout_height="@dimen/tour_buttons_height" android:text="@string/btn_done" style="@style/Onboarding.NextButton" />
+        </LinearLayout>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/txt_msg" android:layout_marginBottom="20.0dip" android:text="@string/onboarding_email_use_notice" style="@style/SignUp.Info" />
+    </LinearLayout>
+</com.soundcloud.android.onboarding.auth.LegacyEnterUserDetailsLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/track_likes_header" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View style="@style/Divider.16.Mist" />
+    <View style="@style/Divider.1.Section" />
+    <LinearLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="none" app:layout_scrollFlags="scroll" style="@style/TrackLikesHeader">
+        <include layout="@layout/downloadable_header" />
+        <ImageButton android:id="@id/shuffle_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/accessibility_shuffle_likes" style="@style/EngagementAction.Shuffle" />
+        <com.soundcloud.android.offlinestate.OfflineStateButton android:id="@id/offline_state_button" style="@style/EngagementAction.OfflineState" />
+    </LinearLayout>
+    <View style="@style/Divider.1.Section" />
+</LinearLayout>

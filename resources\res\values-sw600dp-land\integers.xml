@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="collection_grid_span_count">4</integer>
+    <integer name="grids_num_columns">3</integer>
+    <integer name="stations_grid_span_count">4</integer>
+    <integer name="user_profile_card_grid_span_count">3</integer>
+</resources>

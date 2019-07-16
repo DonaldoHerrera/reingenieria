@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/track_recommendations_bucket" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Carousel.Bucket">
+    <View style="@style/Divider.1.Section"/>
+    <View style="@style/Divider.16.Mist"/>
+    <View style="@style/Divider.1.Section"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textColor="@color/ash" android:gravity="center_vertical" android:id="@+id/reason" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="56dp" style="@style/Carousel.ReasonText"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/other_playlists" android:paddingLeft="16dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:overScrollMode="never"/>
+    <View style="@style/Divider.1.Section"/>
+    <View style="@style/Divider.16.Mist"/>
+</LinearLayout>

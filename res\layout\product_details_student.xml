@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/legacy_conversion_margin" android:paddingRight="@dimen/legacy_conversion_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/product_choice_title" android:layout_marginTop="24.0dip" android:text="@string/tier_student" android:layout_below="@id/conversion_cloud" style="@style/ProductText.Title" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/product_choice_price" android:layout_below="@id/product_choice_title" style="@style/ProductText.Price" />
+    <View android:id="@id/product_choice_divider" android:layout_below="@id/product_choice_price" style="@style/ProductPageDivider" />
+    <ImageView android:id="@id/check_1" android:layout_below="@id/product_choice_divider" android:contentDescription="@string/accessibility_checked" style="@style/ProductPageCheck" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/feature_1" android:layout_marginBottom="8.0dip" android:text="@string/product_choice_line_1_common" android:layout_toRightOf="@id/check_1" android:layout_alignTop="@id/check_1" style="@style/ProductText" />
+    <ImageView android:id="@id/check_2" android:layout_below="@id/feature_1" android:contentDescription="@string/accessibility_checked" style="@style/ProductPageCheck" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/feature_2" android:layout_marginBottom="8.0dip" android:text="@string/product_choice_line_2_common" android:layout_toRightOf="@id/check_2" android:layout_alignTop="@id/check_2" style="@style/ProductText" />
+    <ImageView android:id="@id/check_3" android:layout_below="@id/feature_2" android:contentDescription="@string/accessibility_checked" style="@style/ProductPageCheck" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/feature_3" android:layout_marginBottom="8.0dip" android:text="@string/product_choice_line_3_common" android:layout_toRightOf="@id/check_3" android:layout_alignTop="@id/check_3" style="@style/ProductText" />
+    <ImageView android:id="@id/check_4" android:layout_below="@id/feature_3" android:contentDescription="@string/accessibility_checked" style="@style/ProductPageCheck" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/feature_4" android:layout_marginBottom="8.0dip" android:text="@string/product_choice_line_4_common" android:layout_toRightOf="@id/check_4" android:layout_alignTop="@id/check_4" style="@style/ProductText" />
+</RelativeLayout>

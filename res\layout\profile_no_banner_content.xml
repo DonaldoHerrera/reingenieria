@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/content_bottom_padding_behavior">
+        <include layout="@layout/toolbar_no_shadow" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/profile_coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_id">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="none" app:layout_scrollFlags="scroll" layout="@layout/profile_header_no_banner" />
+                <com.soundcloud.android.view.customfontviews.CustomFontTabLayout android:id="@id/tab_indicator_fixed" android:background="@color/white" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foregroundGravity="bottom" app:layout_collapseMode="pin" style="@style/TabsTheme.Fixed.Elevated" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                <androidx.viewpager.widget.ViewPager android:id="@id/profile_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <View android:id="@id/snackbar_anchor" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </RelativeLayout>
+</merge>

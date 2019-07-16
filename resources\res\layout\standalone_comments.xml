@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.soundcloud.android.view.NestedCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/main_container" android:paddingTop="?attr/actionBarSize" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/content_bottom_padding_behavior">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/comments_snackbar_anchor" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/ak_recycler_view" android:paddingTop="16dp" android:scrollbars="vertical" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:headerDividersEnabled="false" android:paddingStart="@dimen/space_small" android:paddingEnd="@dimen/space_small"/>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <include android:id="@+id/commentInputContent" layout="@layout/standalone_comment_input_view"/>
+    </LinearLayout>
+</com.soundcloud.android.view.NestedCoordinatorLayout>

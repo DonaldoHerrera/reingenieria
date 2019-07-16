@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.soundcloud.android.onboarding.auth.CreateAccountLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Auth.Base">
+    <androidx.constraintlayout.widget.ConstraintLayout app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0" style="@style/Auth.Container">
+        <include android:id="@+id/authLayout" layout="@layout/auth_layout"/>
+        <androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="24dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/authLayout">
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/createAccountEmailNoticeText" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/create_email_use_notice" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/Auth.PrivacyPolicy"/>
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/createAccountPrivacyPolicyReminderText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/create_privacy_policy_reminder" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/createAccountEmailNoticeText" style="@style/Auth.PrivacyPolicy"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.soundcloud.android.onboarding.auth.CreateAccountLayout>

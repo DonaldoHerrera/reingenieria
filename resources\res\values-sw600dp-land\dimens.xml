@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="android_status_bar_stub_height">24dp</dimen>
+    <dimen name="btn_upsell_max_width">366dp</dimen>
+    <dimen name="conversion_margin_side">90dp</dimen>
+    <dimen name="conversion_padding_top">90dp</dimen>
+    <dimen name="empty_message_margin_left_right">80dp</dimen>
+    <dimen name="go_onboarding_settings_tooltip_margin_bottom">60dp</dimen>
+    <dimen name="go_onboarding_settings_tooltip_margin_top">40dp</dimen>
+    <dimen name="playlist_header_padding">16dp</dimen>
+    <dimen name="stations_home_artwork_size">164dp</dimen>
+    <dimen name="top_bottom_layout_margin">56dp</dimen>
+    <dimen name="track_info_margin_horizontal">150dp</dimen>
+</resources>

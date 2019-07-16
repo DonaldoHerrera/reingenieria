@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_above="@+id/bottom_bar" android:layout_alignParentTop="true">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="5">
+            <include layout="@layout/upload_metadata"/>
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3">
+            <RelativeLayout android:id="@+id/rec_controls" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-3dp" android:layout_centerInParent="true">
+                <FrameLayout android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageButton android:id="@+id/btn_action" style="@style/UploadButton"/>
+                </FrameLayout>
+                <com.soundcloud.android.view.CircularProgressBar android:id="@+id/upload_progress" android:layout_centerInParent="true" style="@style/RecordUploadProgressBar"/>
+            </RelativeLayout>
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/upload_status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="29dp" android:text="@string/uploader_event_processing_your_sound" android:layout_below="@+id/rec_controls" android:layout_centerInParent="true" style="@style/TextAppearanceMedium"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:id="@+id/bottom_bar" android:layout_width="match_parent" android:layout_height="@dimen/btn_min_height" android:layout_alignParentBottom="true">
+        <com.soundcloud.android.view.customfontviews.CustomFontButton android:textColor="@color/ash" android:id="@+id/btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_cancel" style="@style/BorderlessButton"/>
+    </LinearLayout>
+</RelativeLayout>

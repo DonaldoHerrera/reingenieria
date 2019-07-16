@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/advertisement_header" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textColor="@color/ash" android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/advertisement" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/ads_advertisement" />
+    </FrameLayout>
+    <ImageView android:id="@id/ad_image_view" android:background="@color/sc_dark_orange" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_above="@id/btn_continue" android:layout_below="@id/advertisement_header" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textSize="20.0sp" android:textColor="@color/soundcloudOrange" android:ellipsize="end" android:gravity="center" android:id="@id/btn_continue" android:layout_width="fill_parent" android:layout_height="75.0dip" android:text="@string/btn_continue" android:maxLines="1" android:layout_alignParentBottom="true" />
+</RelativeLayout>

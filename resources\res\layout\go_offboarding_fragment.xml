@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/go_offboarding" android:scaleType="centerCrop" android:contentDescription="@null" style="@style/GoOffboarding"/>
+    <RelativeLayout android:padding="24dp" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/GoOffboarding.Container">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/offboarding_buttons" android:layout_alignParentTop="true">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/white_cloud" android:layout_marginBottom="8dp" android:contentDescription="@null" style="@style/GoOffboarding.Cloud"/>
+                <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/offboarding_primary_text" style="@style/GoOffboarding.Text.Headline"/>
+                <View android:id="@+id/divider" style="@style/GoOffboarding.Divider"/>
+                <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/offboarding_secondary_text" style="@style/GoOffboarding.Text.SubText"/>
+            </LinearLayout>
+        </FrameLayout>
+        <include android:id="@+id/offboarding_buttons" layout="@layout/go_offboarding_buttons"/>
+    </RelativeLayout>
+</FrameLayout>

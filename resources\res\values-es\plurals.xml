@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_stats_likes">
+        <item quantity="one">%d me gusta</item>
+        <item quantity="other">%d me gusta</item>
+    </plurals>
+    <plurals name="activities_new_notification">
+        <item quantity="one">1 notificación nueva</item>
+        <item quantity="other">%s notificaciones nuevas</item>
+    </plurals>
+    <plurals name="ads_app_ratings">
+        <item quantity="one">%s votación</item>
+        <item quantity="other">%s votaciones</item>
+    </plurals>
+    <plurals name="collections_playlists_and_albums_header_plural">
+        <item quantity="one">Listas y álbumes</item>
+        <item quantity="other">%d listas y álbumes</item>
+    </plurals>
+    <plurals name="collections_recently_played_header_items">
+        <item quantity="one">%d elemento escuchado recientemente</item>
+        <item quantity="other">%d elementos escuchados recientemente</item>
+    </plurals>
+    <plurals name="downloading_track_of_tracks">
+        <item quantity="one">%1$d pista</item>
+        <item quantity="other">%1$d de %2$d pistas</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="one">%d día</item>
+        <item quantity="other">%d días</item>
+    </plurals>
+    <plurals name="elapsed_days_ago">
+        <item quantity="one">hace %d día</item>
+        <item quantity="other">hace %d días</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="elapsed_hours_ago">
+        <item quantity="one">hace %d hora</item>
+        <item quantity="other">hace %d horas</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="elapsed_minutes_ago">
+        <item quantity="one">hace %d minuto</item>
+        <item quantity="other">hace %d minutos</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="one">%d mes</item>
+        <item quantity="other">%d meses</item>
+    </plurals>
+    <plurals name="elapsed_months_ago">
+        <item quantity="one">hace %d mes</item>
+        <item quantity="other">hace %d meses</item>
+    </plurals>
+    <plurals name="elapsed_seconds">
+        <item quantity="one">%d segundo</item>
+        <item quantity="other">%d segundos</item>
+    </plurals>
+    <plurals name="elapsed_seconds_ago">
+        <item quantity="one">hace %d segundo</item>
+        <item quantity="other">hace %d segundos</item>
+    </plurals>
+    <plurals name="elapsed_years">
+        <item quantity="one">%d año</item>
+        <item quantity="other">%d años</item>
+    </plurals>
+    <plurals name="elapsed_years_ago">
+        <item quantity="one">hace %d año</item>
+        <item quantity="other">hace %d años</item>
+    </plurals>
+    <plurals name="library_search_likes_hint">
+        <item quantity="one">Buscar %d pista</item>
+        <item quantity="other">Buscar %d pistas</item>
+    </plurals>
+    <plurals name="number_of_liked_tracks_you_liked">
+        <item quantity="one">%d pista</item>
+        <item quantity="other">%d pistas</item>
+    </plurals>
+    <plurals name="number_of_sounds">
+        <item quantity="one">%s pista</item>
+        <item quantity="other">%s pistas</item>
+    </plurals>
+    <plurals name="offline_dialog_go_online_warning_content">
+        <item quantity="one">Tu dispositivo tiene que estar en línea al menos una vez cada 30 días para verificar tu suscripción. Conéctate antes de %d día para conservar el contenido que has descargado.</item>
+        <item quantity="other">Tu dispositivo tiene que estar en línea al menos una vez cada 30 días para verificar tu suscripción. Conéctate antes de %d días para conservar el contenido que has descargado.</item>
+    </plurals>
+    <plurals name="offline_dialog_go_online_warning_title">
+        <item quantity="one">Verifica tu suscripción antes de %d día</item>
+        <item quantity="other">Verifica tu suscripción antes de %d días</item>
+    </plurals>
+    <plurals name="stream_new_posts">
+        <item quantity="one">1 publicación nueva</item>
+        <item quantity="other">%s posts nuevos</item>
+    </plurals>
+    <plurals name="trackinfo_comments">
+        <item quantity="one">%d comentario sobre esta pista</item>
+        <item quantity="other">%d comentarios sobre esta pista</item>
+    </plurals>
+</resources>

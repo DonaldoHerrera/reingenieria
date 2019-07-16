@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/stream_empty_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/collection_emtpy_recently_played" android:contentDescription="@null" style="@style/UniflowEmptyView.Image" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/collections_recently_played_empty" android:layout_weight="0.0" style="@style/UniflowEmptyView.Text" />
+</LinearLayout>

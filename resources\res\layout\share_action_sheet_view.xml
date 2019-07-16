@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/bottom_sheet" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+    <com.soundcloud.android.soul.components.menu.MenuBottomSheet android:id="@+id/shareInstagram" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.soundcloud.android.soul.components.menu.MenuBottomSheet android:id="@+id/shareOther" android:layout_width="match_parent" android:layout_height="wrap_content" app:menuIcon="@drawable/ic_24_share_ash" app:menuTitle="@string/share_sheet_share_other_options"/>
+</LinearLayout>

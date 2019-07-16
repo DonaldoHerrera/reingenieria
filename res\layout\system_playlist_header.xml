@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:artworkSize="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/blurred_background" android:background="@color/image_loading_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SystemPlaylistHeader.Container">
+            <com.soundcloud.android.discovery.systemplaylist.SystemPlaylistArtworkView android:id="@id/artwork" android:layout_width="wrap_content" android:layout_height="wrap_content" artworkSize:large="true" />
+            <com.soundcloud.android.view.AutoResizeTextView android:id="@id/system_playlist_title" style="@style/SystemPlaylistHeader.Title" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/system_playlist_description" style="@style/SystemPlaylistHeader.Description" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout style="@style/SystemPlaylistHeader.DetailsContainer">
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/system_playlist_duration" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SystemPlaylistHeader.Duration" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/system_playlist_updated_at" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SystemPlaylistHeader.UpdatedAt" />
+    </FrameLayout>
+</LinearLayout>

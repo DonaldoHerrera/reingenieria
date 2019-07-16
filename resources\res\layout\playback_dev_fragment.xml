@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/mist" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textSize="18sp" android:id="@+id/player_name" android:layout_width="wrap_content" android:layout_height="wrap_content" app:custom_font="@string/interstate_light"/>
+    <View style="@style/Divider.1.Silver"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/player_versions" android:layout_width="wrap_content" android:layout_height="wrap_content" app:custom_font="@string/interstate_light"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/play_state_session_is_active" android:layout_width="wrap_content" android:layout_height="wrap_content" app:custom_font="@string/interstate_light"/>
+    <View style="@style/Divider.1.Silver"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/play_state_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" app:custom_font="@string/interstate_light"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/play_state_item_urn" android:layout_width="wrap_content" android:layout_height="wrap_content" app:custom_font="@string/interstate_light"/>
+    <View style="@style/Divider.1.Silver"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/playback_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" app:custom_font="@string/interstate_light"/>
+    <View style="@style/Divider.1.Silver"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/audio_ports" android:layout_width="wrap_content" android:layout_height="wrap_content" app:custom_font="@string/interstate_light"/>
+</LinearLayout>

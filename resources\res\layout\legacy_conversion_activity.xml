@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View style="@style/ConversionBackground"/>
+        <include android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/legacy_conversion_margin" android:layout_marginTop="20dp" android:layout_marginRight="@dimen/legacy_conversion_margin" layout="@layout/legacy_conversion_common"/>
+    </FrameLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/artwork_container" android:background="@drawable/bg_collection_empty_slot" android:layout_width="@dimen/liked_track_icon_dimension" android:layout_height="@dimen/liked_track_icon_dimension"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/preview_artwork" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" style="@style/Collections.CollectionPreviewArtwork" />
+    <ImageView android:layout_gravity="center" android:id="@id/artwork_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+</FrameLayout>

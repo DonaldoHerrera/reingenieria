@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/play_history_bucket" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Collections.Bucket"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/collections_play_history_header" style="@style/Collections.BucketHeader" />
+    <View style="@style/Divider.1.Item" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/play_history" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View style="@style/Divider.1.Item" />
+    <FrameLayout android:id="@id/play_history_view_all" style="@style/ViewAllContainer">
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/sounds_view_all_text" android:text="@string/collections_view_all_tracks" style="@style/ViewAllText" />
+    </FrameLayout>
+</LinearLayout>

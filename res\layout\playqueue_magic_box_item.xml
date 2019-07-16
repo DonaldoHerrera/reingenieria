@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/play_queue_item_magic_box" android:background="@drawable/queue_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PlayQueue.MagicBox"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/auto_play_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/station_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:src="@drawable/ic_station" android:contentDescription="@null" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/toggle_auto_play_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play_queue_header_auto_play_toggle" style="@style/PlayQueue.AutoPlaySwitchLabel" />
+        <androidx.appcompat.widget.SwitchCompat android:theme="@style/Theme.PlayQueueSwitch" android:id="@id/toggle_auto_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:scaleX="0.75" android:scaleY="0.75" />
+    </LinearLayout>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/toggle_auto_play_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play_queue_header_magic_box_subtitle" style="@style/PlayQueue.MagicBoxDescription" />
+</LinearLayout>

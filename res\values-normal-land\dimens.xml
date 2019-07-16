@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_upsell_max_width">312.0dip</dimen>
+    <dimen name="landing_header_bottom_margin">16.0dip</dimen>
+    <dimen name="landing_logo_margin_top">16.0dip</dimen>
+    <dimen name="player_error_text_margin">20.0dip</dimen>
+    <dimen name="cards_artwork_bottom_inner_padding">12.0dip</dimen>
+    <dimen name="cards_artwork_inner_padding">8.0dip</dimen>
+</resources>

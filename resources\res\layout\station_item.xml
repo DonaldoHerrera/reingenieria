@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/selectableItemBackground" android:layout_weight="1" style="@style/Stations.Item">
+    <RelativeLayout android:id="@+id/station_item" android:background="@drawable/cards" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/artwork_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.soundcloud.android.view.SquareImageView android:id="@+id/artwork" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Stations.ItemArtwork"/>
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_station_indicator" android:contentDescription="@null"/>
+        </FrameLayout>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/artwork_container" style="@style/Stations.ItemTitle"/>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/type" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/title" style="@style/Stations.ItemType"/>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/now_playing" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ads_now_playing" android:layout_below="@+id/title" style="@style/Stations.ItemNowPlaying"/>
+    </RelativeLayout>
+</FrameLayout>

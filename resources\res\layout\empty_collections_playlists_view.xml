@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/collection_empty_playlists" android:contentDescription="@null" style="@style/Collections.PlaylistsEmptyImage"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:gravity="center" android:id="@+id/collections_empty_playlists" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/collections_empty_playlists" style="@style/Collections.PlaylistsEmptyText"/>
+</LinearLayout>

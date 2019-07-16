@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.soundcloud.android.onboarding.auth.LoginLayout android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Auth.Base"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Auth.Container">
+        <include android:id="@id/authLayout" layout="@layout/auth_layout" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/forgotPasswordText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="16.0dip" android:text="@string/authentication_I_forgot_my_password" android:lineSpacingExtra="2.0sp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.501" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/authLayout" style="@style/Auth.TextAuthMessage" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.soundcloud.android.onboarding.auth.LoginLayout>

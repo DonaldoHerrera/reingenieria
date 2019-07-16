@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/search_cell_margin_left_right" android:layout_marginTop="@dimen/search_cell_margin_top" android:layout_marginRight="@dimen/search_cell_margin_left_right" android:layout_marginBottom="@dimen/search_cell_margin_bottom">
+    <androidx.cardview.widget.CardView android:id="@+id/search_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/selectableItemBackground" app:cardElevation="@dimen/search_cell_elevation" app:cardUseCompatPadding="true">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/search_holder" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/search_link_height" android:transitionName="@string/search_text_holder_transition_name">
+            <ImageView android:src="@drawable/search_icon" android:contentDescription="@null" style="@style/SearchIcon"/>
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:gravity="center_vertical" android:id="@+id/search_text" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/search_hint" android:transitionName="@string/search_text_transition_name" style="@style/Search.TextView"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

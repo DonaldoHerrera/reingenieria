@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:orderingFromXml="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/dev_drawer_about_title" android:key="@string/dev_drawer_about_key">
+        <Preference android:title="@string/dev_drawer_player_title" android:key="@string/dev_drawer_player_key" />
+        <ListPreference android:persistent="true" android:enabled="true" android:entries="@array/dev_drawer_day_night_keys" android:title="@string/dev_drawer_action_day_night_title" android:key="dayNightMode" android:entryValues="@array/dev_drawer_day_night_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/dev_drawer_category_actions_title" android:key="@string/dev_drawer_category_actions_key">
+        <Preference android:title="@string/dev_drawer_action_kill_app_title" android:key="@string/dev_drawer_action_kill_app_key" />
+        <Preference android:title="@string/dev_drawer_action_get_oauth_token_to_clipboard_title" android:key="@string/dev_drawer_action_get_oauth_token_to_clipboard_key" />
+        <Preference android:title="@string/dev_drawer_action_app_features_title" android:key="@string/dev_drawer_action_app_features_key" />
+        <Preference android:title="@string/dev_drawer_action_show_remote_debug_title" android:key="@string/dev_drawer_action_show_remote_debug_key" />
+        <Preference android:title="@string/dev_drawer_action_generate_oom_title" android:key="@string/dev_drawer_action_generate_oom_key" />
+        <Preference android:title="@string/dev_drawer_action_ad_injection_title" android:key="@string/dev_drawer_action_ad_injection_key" />
+        <Preference android:title="@string/dev_drawer_action_fake_alpha_reminder_title" android:key="@string/dev_drawer_action_fake_alpha_reminder" />
+        <Preference android:title="@string/dev_drawer_action_fake_alpha_thanks_title" android:key="@string/dev_drawer_action_fake_alpha_thanks" />
+        <Preference android:title="@string/dev_drawer_action_dummy_notification_title" android:key="@string/dev_drawer_action_dummy_notification" />
+        <Preference android:title="@string/dev_drawer_action_reset_flags_title" android:key="@string/dev_drawer_action_reset_flags_key" />
+        <Preference android:title="@string/dev_drawer_action_acct_config_update_title" android:key="@string/dev_drawer_action_acct_config_update_key" />
+        <Preference android:title="@string/dev_drawer_action_app_config_update_title" android:key="@string/dev_drawer_action_app_config_update_key" />
+        <Preference android:title="@string/dev_drawer_action_policy_sync_title" android:key="@string/dev_drawer_action_policy_sync_key" />
+        <Preference android:title="@string/dev_drawer_action_database_cleanup_title" android:key="@string/dev_drawer_action_database_cleanup_key" />
+        <Preference android:title="@string/dev_drawer_action_crash_title" android:key="@string/dev_drawer_action_crash_key" />
+        <Preference android:title="@string/dev_drawer_action_native_crash_title" android:key="@string/dev_drawer_action_native_crash_key" />
+        <Preference android:title="@string/dev_drawer_action_concurrent_title" android:key="@string/dev_drawer_action_concurrent_key" />
+        <Preference android:title="@string/dev_drawer_action_cast_id_title" android:key="@string/dev_drawer_action_cast_id_key" />
+        <CheckBoxPreference android:title="@string/dev_drawer_flush_eventlogger_instantly_title" android:key="@string/dev_drawer_flush_eventlogger_instantly_key" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/dev_drawer_event_logger_monitor_title" android:key="@string/dev_drawer_event_logger_monitor_key" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/dev_drawer_immediately_skippable_ads_title" android:key="@string/dev_drawer_immediately_skippable_ads_key" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/dev_drawer_upsells_and_conversion_title" android:key="@string/dev_drawer_upsells_and_conversion_key">
+        <Preference android:title="@string/dev_drawer_conversion_upgrade_mt_title" android:key="@string/dev_drawer_conversion_upgrade_mt" />
+        <Preference android:title="@string/dev_drawer_conversion_upgrade_ht_title" android:key="@string/dev_drawer_conversion_upgrade_ht" />
+        <Preference android:title="@string/dev_drawer_conversion_downgrade_mt_title" android:key="@string/dev_drawer_conversion_downgrade_mt" />
+        <Preference android:title="@string/dev_drawer_conversion_downgrade_free_title" android:key="@string/dev_drawer_conversion_downgrade_free" />
+        <Preference android:title="@string/dev_drawer_upsells_upgrade_title" android:key="@string/dev_drawer_upsells_upgrade" />
+        <Preference android:title="@string/dev_drawer_upsells_ads_title" android:key="@string/dev_drawer_upsells_ads" />
+        <Preference android:title="@string/dev_drawer_upsells_offline_title" android:key="@string/dev_drawer_upsells_offline" />
+        <Preference android:title="@string/dev_drawer_upsells_hq_title" android:key="@string/dev_drawer_upsells_hq" />
+        <Preference android:title="@string/dev_drawer_upsells_premium_content_title" android:key="@string/dev_drawer_upsells_premium_content" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/dev_drawer_introductory_overlays_title" android:key="@string/dev_drawer_introductory_overlays_key" />
+</PreferenceScreen>

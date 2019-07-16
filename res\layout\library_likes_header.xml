@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/track_likes_header" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View style="@style/Divider.16.Mist" />
+    <View style="@style/Divider.1.Section" />
+    <LinearLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="none" app:layout_scrollFlags="scroll" style="@style/TrackLikesHeader">
+        <ImageButton android:enabled="false" android:id="@id/track_likes_header_search" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/search_content_description" app:srcCompat="@drawable/ic_search_24_charcoal" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textColor="@color/ash" android:gravity="center_vertical" android:id="@id/header_text" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/Collections.EngagementText" />
+        <com.soundcloud.android.offlinestate.OfflineStateButton android:id="@id/offline_state_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48.0dip" style="@style/EngagementAction.OfflineState" />
+        <ImageButton android:enabled="false" android:id="@id/shuffle_btn" android:background="?selectableItemBackgroundBorderless" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/accessibility_shuffle_likes" app:srcCompat="@drawable/ic_shuffle_24_charcoal" style="@style/EngagementAction" />
+    </LinearLayout>
+    <View style="@style/Divider.1.Section" />
+</LinearLayout>

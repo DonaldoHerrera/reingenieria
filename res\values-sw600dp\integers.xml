@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="collection_grid_span_count">3</integer>
+    <integer name="collection_preview_thumbnail_count">8</integer>
+    <integer name="design_snackbar_text_max_lines">1</integer>
+    <integer name="grids_num_columns">2</integer>
+    <integer name="stations_grid_span_count">3</integer>
+    <integer name="timestamp_animate_percentage">50</integer>
+    <integer name="user_profile_card_grid_span_count">2</integer>
+    <integer name="waveform_ratio_bottom">1</integer>
+    <integer name="waveform_ratio_top">1</integer>
+</resources>

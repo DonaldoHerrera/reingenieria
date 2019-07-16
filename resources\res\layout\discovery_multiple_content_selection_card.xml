@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/discovery_multiple_selection_card" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Discovery.Selection.Card">
+    <androidx.legacy.widget.Space android:layout_width="match_parent" android:layout_height="24dp"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/selection_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Discovery.Selection.Title"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/selection_description" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Discovery.Selection.Description"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/selection_playlists_carousel" android:paddingLeft="16dp" android:paddingTop="16dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false"/>
+    <androidx.legacy.widget.Space android:layout_width="match_parent" android:layout_height="18dp"/>
+</LinearLayout>

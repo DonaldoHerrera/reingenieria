@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_alignBottom="@id/conversion_content" android:layout_alignParentTop="true" style="@style/ConversionBackground" />
+        <include android:id="@id/conversion_content" android:layout_width="@dimen/conversion_content" android:layout_height="fill_parent" android:layout_marginTop="48.0dip" android:layout_centerHorizontal="true" layout="@layout/legacy_conversion_common" />
+    </RelativeLayout>
+</ScrollView>

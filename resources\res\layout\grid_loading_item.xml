@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/track_info_row" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/grid_view_loading_height">
+        <ProgressBar android:gravity="center" android:id="@+id/ak_list_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:layout_centerInParent="true"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ak_list_retry" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/grid_view_loading_height">
+            <View style="@style/Divider.1.Item"/>
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="0dp" android:text="@string/ak_error_pager_failed" android:layout_weight="1" style="@style/EmptyViewContent"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/search_suggestion_left_margin">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/title" android:layout_width="0dp" android:layout_weight="1" style="@style/Search.Suggestion.Text"/>
+    <ImageView android:id="@+id/iv_search_type" style="@style/Search.Suggestion.Icon.Type"/>
+</LinearLayout>

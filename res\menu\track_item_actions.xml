@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/play_next" android:title="@string/play_next" />
+    <item android:id="@id/start_station" android:title="@string/stations_start_track_station" />
+    <item android:id="@id/go_to_artist" android:title="@string/go_to_artist" />
+    <item android:id="@id/go_to_comments" android:title="@string/go_to_comments" />
+    <item android:id="@id/add_to_likes" android:title="@string/btn_like" />
+    <item android:id="@id/add_to_playlist" android:title="@string/add_to_playlist" />
+    <item android:id="@id/remove_from_playlist" android:visible="false" android:title="@string/remove_from_playlist" />
+    <item android:id="@id/toggle_repost" android:title="@string/repost" />
+    <item android:id="@id/share" android:title="@string/share" />
+</menu>

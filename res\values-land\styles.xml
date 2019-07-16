@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Ak.EmptyViewContent.EmptyCollection" parent="@style/Ak.EmptyViewContent">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20.0dip</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+    </style>
+    <style name="Ak.EmptyViewContent.EmptyCollection.Link" parent="@style/Ak.EmptyViewContent.EmptyCollection">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">20.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+    <style name="Ak.EmptyViewImage" parent="@style/Ak">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginBottom">15.0dip</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="GridItemImageView" parent="@style/GridItemImageViewBase">
+        <item name="movement">-8.0dip</item>
+    </style>
+    <style name="PlayerTitle" parent="@style/ShrinkWrap.Primary.Medium">
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="PlayerTrackArtwork">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="ariv_aspectRatioEnabled">true</item>
+        <item name="ariv_dominantMeasurement">width</item>
+    </style>
+    <style name="StationInfo.HeaderContainer" parent="@style/StationInfo">
+        <item name="android:background">@color/stations_blur_overlay</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">24.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="UniflowEmptyView.Container" parent="@style/UniflowEmptyView">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">32.0dip</item>
+    </style>
+    <style name="UniflowEmptyView.Image" parent="@style/UniflowEmptyView">
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="UniflowEmptyView.Text" parent="@style/UniflowEmptyView">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/empty_message_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/empty_message_margin_left_right</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="StationInfo.LikeButton" parent="@style/Cards.ToggleButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:drawableLeft">@drawable/ic_like_station_selector</item>
+        <item name="android:drawablePadding">8.0dip</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

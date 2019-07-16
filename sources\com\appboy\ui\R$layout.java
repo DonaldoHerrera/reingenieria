@@ -1,0 +1,46 @@
+package com.appboy.ui;
+
+public final class R$layout {
+    public static final int com_appboy_banner_image_card = 2131492950;
+    public static final int com_appboy_captioned_image_card = 2131492951;
+    public static final int com_appboy_cross_promotion_small_card = 2131492952;
+    public static final int com_appboy_default_card = 2131492953;
+    public static final int com_appboy_feed = 2131492954;
+    public static final int com_appboy_feed_activity = 2131492955;
+    public static final int com_appboy_feed_footer = 2131492956;
+    public static final int com_appboy_feed_header = 2131492957;
+    public static final int com_appboy_feed_read_indicator_holder = 2131492958;
+    public static final int com_appboy_feedback = 2131492959;
+    public static final int com_appboy_feedback_activity = 2131492960;
+    public static final int com_appboy_inappmessage_full = 2131492961;
+    public static final int com_appboy_inappmessage_full_graphic = 2131492962;
+    public static final int com_appboy_inappmessage_html_full = 2131492963;
+    public static final int com_appboy_inappmessage_modal = 2131492964;
+    public static final int com_appboy_inappmessage_modal_graphic = 2131492965;
+    public static final int com_appboy_inappmessage_slideup = 2131492966;
+    public static final int com_appboy_notification = 2131492967;
+    public static final int com_appboy_notification_base = 2131492968;
+    public static final int com_appboy_notification_no_icon = 2131492969;
+    public static final int com_appboy_short_news_card = 2131492970;
+    public static final int com_appboy_stubbed_feed_drawee_view = 2131492971;
+    public static final int com_appboy_stubbed_feed_image_view = 2131492972;
+    public static final int com_appboy_stubbed_inappmessage_drawee_view = 2131492973;
+    public static final int com_appboy_stubbed_inappmessage_image_view = 2131492974;
+    public static final int com_appboy_text_announcement_card = 2131492975;
+    public static final int com_appboy_webview_activity = 2131492976;
+    public static final int notification_action = 2131493135;
+    public static final int notification_action_tombstone = 2131493136;
+    public static final int notification_media_action = 2131493137;
+    public static final int notification_media_cancel_action = 2131493138;
+    public static final int notification_template_big_media = 2131493139;
+    public static final int notification_template_big_media_custom = 2131493140;
+    public static final int notification_template_big_media_narrow = 2131493141;
+    public static final int notification_template_big_media_narrow_custom = 2131493142;
+    public static final int notification_template_custom_big = 2131493143;
+    public static final int notification_template_icon_group = 2131493144;
+    public static final int notification_template_lines_media = 2131493145;
+    public static final int notification_template_media = 2131493146;
+    public static final int notification_template_media_custom = 2131493147;
+    public static final int notification_template_part_chronometer = 2131493148;
+    public static final int notification_template_part_time = 2131493149;
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/collections_filters_active_message" style="@style/Collections.PlaylistKillFilterText"/>
+    <com.soundcloud.android.view.customfontviews.CustomFontButton android:id="@+id/btn_remove_filters" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/collections_remove_filters" style="@style/BorderlessButton"/>
+</LinearLayout>

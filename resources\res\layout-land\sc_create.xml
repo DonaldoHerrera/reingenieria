@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/MetadataContainer">
+    <LinearLayout android:gravity="center_vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp">
+        <RelativeLayout android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <ImageButton android:id="@+id/btn_action" android:layout_width="@dimen/rec_record_button_dimension" android:layout_height="@dimen/rec_record_button_dimension" style="@style/RecordButton"/>
+            </FrameLayout>
+            <FrameLayout android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <ImageButton android:id="@+id/btn_play_edit" android:adjustViewBounds="false" style="@style/RecordPlayButton"/>
+            </FrameLayout>
+        </RelativeLayout>
+        <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_weight="1">
+            <com.soundcloud.android.features.record.ChronometerView android:gravity="center_vertical" android:id="@+id/chronometer" android:layout_width="wrap_content" android:layout_height="match_parent" android:keepScreenOn="true" style="@style/RecordTextChrono"/>
+        </FrameLayout>
+        <ImageButton android:id="@+id/btn_play" android:layout_marginRight="5dp" style="@style/RecordPlayButton"/>
+        <ImageButton android:id="@+id/btn_edit" style="@style/RecordEditButton"/>
+        <androidx.appcompat.widget.SwitchCompat android:id="@+id/toggle_fade" style="@style/RecordFadeSwitch"/>
+    </LinearLayout>
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/action_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/record_tap_to_record" style="@style/TextAppearanceMedium"/>
+    <RelativeLayout android:id="@+id/gauge_holder" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="4"/>
+    <include android:layout_width="match_parent" android:layout_height="@dimen/btn_min_height" layout="@layout/record_bottom_bar"/>
+</LinearLayout>

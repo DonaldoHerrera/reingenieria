@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="@dimen/collection_recently_played_item_size" android:layout_height="wrap_content" style="@style/Collections.BucketCarouselCard">
+    <RelativeLayout android:id="@+id/carousel_playlist_item" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/carousel_item_right_margin" android:layout_marginBottom="8dp" android:foreground="?attr/selectableItemBackground" android:layout_marginEnd="@dimen/carousel_item_right_margin">
+        <com.soundcloud.android.image.StyledImageView android:id="@+id/artwork" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ImageView android:id="@+id/pro_badge" android:layout_alignBottom="@+id/artwork" android:contentDescription="@string/accessibility_pro_badge" android:layout_alignEnd="@+id/artwork" style="@style/Carousel.ProBadge"/>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/artwork" style="@style/Carousel.ItemTitle"/>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@+id/secondary_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/collections_recently_played_profile" android:layout_below="@+id/title" style="@style/Carousel.ItemArtist"/>
+    </RelativeLayout>
+    <com.soundcloud.android.view.OverflowAnchorImageButton android:id="@+id/overflow_button" style="@style/Collections.RecentlyPlayedCarouselOverflowMenuButton"/>
+</FrameLayout>

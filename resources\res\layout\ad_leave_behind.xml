@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="@dimen/ad_overlay_padding" android:paddingRight="@dimen/ad_overlay_padding" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <FrameLayout android:id="@+id/leave_behind_header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/leave_behind_image_holder">
+        <com.soundcloud.android.view.customfontviews.CustomFontButton android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:layout_marginBottom="@dimen/ad_overlay_padding" style="@style/AdOverlayClose"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/leave_behind_image_holder" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/ad_overlay_selector" android:layout_alignParentBottom="true">
+        <com.soundcloud.android.view.AspectRatioImageView android:id="@+id/leave_behind_image" android:visibility="gone" style="@style/LeaveBehindImage"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <WebView android:id="@+id/leaveBehindWebView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:orderingFromXml="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/ad_injection_audio_title" android:key="@string/ad_injection_audio_key">
+        <ListPreference android:entries="@array/companion_image_values" android:title="@string/ad_injection_companion_title" android:key="@string/audio_ad_injection_companion_key" android:summary="%s" android:defaultValue="@string/audio_ad_inject_no_companion_key" android:entryValues="@array/audio_companion_image_keys" />
+        <ListPreference android:entries="@array/companion_html_values" android:title="@string/ad_injection_companion_html_title" android:key="@string/audio_ad_injection_companion_html_key" android:summary="%s" android:defaultValue="@string/audio_ad_inject_no_html_companion_key" android:entryValues="@array/companion_html_keys" />
+        <ListPreference android:entries="@array/lb_image_values" android:title="@string/ad_injection_image_leave_behind_title" android:key="@string/audio_ad_injection_image_leave_behind_key" android:summary="%s" android:defaultValue="@string/audio_ad_inject_no_image_lb_key" android:entryValues="@array/audio_lb_image_keys" />
+        <ListPreference android:entries="@array/lb_html_values" android:title="@string/ad_injection_html_leave_behind_title" android:key="@string/audio_ad_injection_html_leave_behind_key" android:summary="%s" android:defaultValue="@string/audio_ad_inject_no_html_lb_key" android:entryValues="@array/audio_lb_html_keys" />
+        <EditTextPreference android:singleLine="true" android:title="@string/ad_inject_skip_offset_title" android:key="@string/audio_ad_inject_skip_offset_key" android:defaultValue="1" />
+        <Preference android:icon="@drawable/com_appboy_rating_full_star" android:title="@string/ad_inject_exclamation_title" android:key="@string/audio_ad_inject_submit_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ad_injection_video_title" android:key="@string/ad_injection_video_key">
+        <ListPreference android:entries="@array/video_values" android:title="@string/ad_injection_video_type_title" android:key="@string/ad_injection_video_type_key" android:summary="%s" android:defaultValue="@string/ad_injection_fullscreen_key" android:entryValues="@array/video_keys" />
+        <ListPreference android:entries="@array/lb_image_values" android:title="@string/ad_injection_image_leave_behind_title" android:key="@string/video_ad_injection_image_leave_behind_key" android:summary="%s" android:defaultValue="@string/video_ad_inject_no_image_lb_key" android:entryValues="@array/video_image_lb_keys" />
+        <ListPreference android:entries="@array/lb_html_values" android:title="@string/ad_injection_html_leave_behind_title" android:key="@string/video_ad_injection_html_leave_behind_key" android:summary="%s" android:defaultValue="@string/video_ad_inject_no_html_lb_key" android:entryValues="@array/video_html_lb_keys" />
+        <EditTextPreference android:singleLine="true" android:title="@string/ad_inject_skip_offset_title" android:key="@string/video_ad_inject_skip_offset_key" android:defaultValue="1" />
+        <Preference android:icon="@drawable/com_appboy_rating_full_star" android:title="@string/ad_inject_exclamation_title" android:key="@string/video_ad_inject_submit_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ad_injection_interstitial_title" android:key="@string/ad_injection_interstitial_key">
+        <Preference android:icon="@drawable/com_appboy_rating_full_star" android:title="@string/current_track_interstitial_submit_title" android:key="@string/current_track_interstitial_submit_key" />
+        <Preference android:icon="@drawable/com_appboy_rating_full_star" android:title="@string/next_track_interstitial_submit_title" android:key="@string/next_track_interstitial_submit_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ad_injection_error_title" android:key="@string/ad_injection_error_key">
+        <Preference android:icon="@drawable/com_appboy_rating_full_star" android:title="@string/empty_audio_ad_submit_title" android:key="@string/empty_audio_ad_submit_key" />
+        <Preference android:icon="@drawable/com_appboy_rating_full_star" android:title="@string/empty_video_ad_submit_title" android:key="@string/empty_video_ad_submit_key" />
+        <Preference android:icon="@drawable/com_appboy_rating_full_star" android:title="@string/error_audio_ad_submit_title" android:key="@string/error_audio_ad_submit_key" />
+        <Preference android:icon="@drawable/com_appboy_rating_full_star" android:title="@string/error_video_ad_submit_title" android:key="@string/error_video_ad_submit_key" />
+    </PreferenceCategory>
+</PreferenceScreen>

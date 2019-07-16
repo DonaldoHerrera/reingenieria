@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/profile_header" style="@style/Profile.HeaderContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center|right|top" android:id="@id/header_info_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Profile.HeaderInfoLayout">
+        <com.soundcloud.android.view.CircularBorderImageView android:id="@id/image" style="@style/Profile.HeaderImage" />
+        <ImageView android:id="@id/pro_badge" android:layout_alignBottom="@id/image" android:contentDescription="@string/accessibility_pro_badge" android:layout_alignEnd="@id/image" style="@style/Profile.HeaderImageProBadge" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textColor="@color/list_primary" android:id="@id/username" android:layout_marginTop="-4.0dip" android:layout_toRightOf="@id/image" android:layout_alignTop="@id/image" android:layout_toEndOf="@id/image" style="@style/Profile.Username" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/followers_count" android:drawableLeft="@drawable/ic_followers_grey_vector" android:layout_toRightOf="@id/image" android:layout_below="@id/username" android:drawableStart="@drawable/ic_followers_grey_vector" android:layout_toEndOf="@id/image" style="@style/Profile.Stats" />
+        <com.soundcloud.android.view.ProfileToggleButton android:id="@id/toggle_btn_follow" android:layout_marginRight="12.0dip" android:layout_toRightOf="@id/image" android:layout_alignBottom="@id/image" android:layout_toEndOf="@id/image" style="@style/Profile.ToggleButton.Follow.Large.TextToggle" />
+        <com.soundcloud.android.view.ProfileToggleButton android:id="@id/toggle_btn_share" android:layout_marginRight="12.0dip" android:layout_toRightOf="@id/toggle_btn_follow" android:layout_alignBottom="@id/image" android:layout_toEndOf="@id/image" style="@style/Profile.ToggleButton.Share.Large" />
+        <com.soundcloud.android.view.ProfileToggleButton android:id="@id/btn_station" android:visibility="gone" android:layout_toRightOf="@id/toggle_btn_share" android:layout_alignBaseline="@id/toggle_btn_follow" android:layout_alignBottom="@id/image" app:textOff="@string/stations_start_user_station" app:textPaddingRight="12.0dip" style="@style/Profile.ToggleButton.Station.Large" />
+    </RelativeLayout>
+</FrameLayout>

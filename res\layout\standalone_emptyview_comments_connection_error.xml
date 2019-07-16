@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EmptyComments.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ak_emptyview_error_connectivity" android:contentDescription="@null" style="@style/EmptyView.Image" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:text="@string/empty_comments_no_internet_connection" style="@style/EmptyView.Text.Main" />
+    <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/empty_playlist_owner_message" android:text="@string/empty_comments_no_internet_connection_sub" style="@style/EmptyView.Text.Sub" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:oneshot="false">
+    <item android:duration="150" android:drawable="@drawable/ic_nowplaying_12_frame1"/>
+    <item android:duration="150" android:drawable="@drawable/ic_nowplaying_12_frame2"/>
+    <item android:duration="150" android:drawable="@drawable/ic_nowplaying_12_frame3"/>
+    <item android:duration="150" android:drawable="@drawable/ic_nowplaying_12_frame4"/>
+    <item android:duration="150" android:drawable="@drawable/ic_nowplaying_12_frame5"/>
+    <item android:duration="150" android:drawable="@drawable/ic_nowplaying_12_frame6"/>
+    <item android:duration="150" android:drawable="@drawable/ic_nowplaying_12_frame7"/>
+    <item android:duration="150" android:drawable="@drawable/ic_nowplaying_12_frame8"/>
+    <item android:duration="150" android:drawable="@drawable/ic_nowplaying_12_frame9"/>
+    <item android:duration="150" android:drawable="@drawable/ic_nowplaying_12_frame10"/>
+</animation-list>

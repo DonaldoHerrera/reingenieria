@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?selectableItemBackground" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/track_position_view" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="0.0dip" android:paddingTop="16.0dip" android:clipChildren="false" android:clipToPadding="false" style="@style/ListItemLayout">
+        <include android:id="@id/track_body" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/time_info_container" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" layout="@layout/tracklist_item_body_view" />
+        <RelativeLayout android:id="@id/time_info_container" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/track_body">
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/preview_indicator" android:paddingTop="1.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" style="@style/PreviewIndicator" />
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/list_item_right_info" android:layout_marginTop="3.0dip" style="@style/ListItemText.Numeric" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

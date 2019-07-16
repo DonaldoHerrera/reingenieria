@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/ic_send_progress_bg" android:layout_width="40.0dip" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/sendBtn" android:background="@drawable/ic_send_comment_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_send_comment" />
+    <com.soundcloud.android.view.CircularProgressBar android:layout_gravity="center" android:id="@id/sendProgress" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" progressBarColor="@color/white" />
+</FrameLayout>

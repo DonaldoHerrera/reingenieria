@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/play_controls" android:paddingLeft="@dimen/player_fast_forward_rewind_margin" android:paddingRight="@dimen/player_fast_forward_rewind_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center|right" android:id="@id/player_previous" android:contentDescription="@string/accessibility_previous" style="@style/PlayerSkip.Previous" />
+    <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageButton android:layout_gravity="center" android:id="@id/player_play" android:contentDescription="@string/accessibility_play" style="@style/PlayerPlay" />
+    </FrameLayout>
+    <ImageButton android:layout_gravity="center|left" android:id="@id/player_next" android:contentDescription="@string/accessibility_next" style="@style/PlayerSkip.Next" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/player_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" app:layout_behavior="@string/player_overlay_background_behavior" app:player_collapsed_height="@dimen/miniplayer_peak_height" style="@style/PlayerOverlayBackgroundStyle" />
+    <FrameLayout android:id="@id/player_root" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/fullscreenable_bottomsheet_behavior" />
+</merge>

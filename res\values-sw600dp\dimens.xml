@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_content_inset_material">24.0dip</dimen>
+    <dimen name="abc_action_bar_content_inset_with_nav">80.0dip</dimen>
+    <dimen name="abc_action_bar_default_height_material">64.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">580.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20.0dip</dimen>
+    <dimen name="ad_cta_button_bottom_margin">96.0dip</dimen>
+    <dimen name="ad_cta_button_height">40.0dip</dimen>
+    <dimen name="android_status_bar_stub_height">74.0dip</dimen>
+    <dimen name="auth_social_button_width">480.0dip</dimen>
+    <dimen name="btn_upsell_max_width">366.0dip</dimen>
+    <dimen name="cards_header_min_height">72.0dip</dimen>
+    <dimen name="carousel_image_size">164.0dip</dimen>
+    <dimen name="collection_recently_played_item_size">180.0dip</dimen>
+    <dimen name="com_appboy_feed_max_width">600.0dip</dimen>
+    <dimen name="conversion_content">440.0dip</dimen>
+    <dimen name="conversion_divider_height">3.0dip</dimen>
+    <dimen name="conversion_divider_width">80.0dip</dimen>
+    <dimen name="conversion_headline_text">38.0sp</dimen>
+    <dimen name="conversion_padding_top">140.0dip</dimen>
+    <dimen name="conversion_title_text">28.0dip</dimen>
+    <dimen name="design_navigation_max_width">320.0dip</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">0.0dip</dimen>
+    <dimen name="design_snackbar_background_corner_radius">2.0dip</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal">24.0dip</dimen>
+    <dimen name="design_snackbar_max_width">576.0dip</dimen>
+    <dimen name="design_snackbar_min_width">320.0dip</dimen>
+    <item type="dimen" name="design_snackbar_padding_vertical_2lines">@dimen/design_snackbar_padding_vertical</item>
+    <dimen name="design_tab_scrollable_min_width">160.0dip</dimen>
+    <dimen name="dialog_width">640.0dip</dimen>
+    <dimen name="empty_message_margin_left_right">120.0dip</dimen>
+    <dimen name="fixed_tab_padding">40.0dip</dimen>
+    <dimen name="full_image_margin">40.0dip</dimen>
+    <dimen name="go_onboarding_settings_tooltip_margin_bottom">60.0dip</dimen>
+    <dimen name="go_onboarding_settings_tooltip_margin_top">240.0dip</dimen>
+    <dimen name="go_onboarding_sub_title_text_size">20.0sp</dimen>
+    <dimen name="go_onboarding_text_width">370.0dip</dimen>
+    <dimen name="go_onboarding_title_text_size">24.0sp</dimen>
+    <dimen name="grids_padding_left_right">8.0dip</dimen>
+    <item type="dimen" name="header_icon_size">@dimen/list_icon_size</item>
+    <dimen name="left_align_guideline">96.0dip</dimen>
+    <dimen name="legacy_conversion_button_text">20.0sp</dimen>
+    <dimen name="legacy_conversion_margin">80.0dip</dimen>
+    <dimen name="list_icon_size">80.0dip</dimen>
+    <dimen name="max_container_wight">366.0dip</dimen>
+    <item type="dimen" name="mr_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="mr_dialog_fixed_width_minor">90.0%</item>
+    <dimen name="player_ad_engagement">64.0dip</dimen>
+    <dimen name="player_engagement">88.0dip</dimen>
+    <dimen name="player_skip_margin">24.0dip</dimen>
+    <dimen name="player_title_top">24.0dip</dimen>
+    <dimen name="profile_image_pro_badge_extra_large_padding">22.0dip</dimen>
+    <dimen name="profile_image_pro_badge_large_padding">12.0dip</dimen>
+    <dimen name="rec_toggle_fade_margin_top">30.0dip</dimen>
+    <dimen name="right_align_guideline">96.0dip</dimen>
+    <dimen name="search_autocompletion_item_padding">10.0dip</dimen>
+    <dimen name="search_clear_history_left_margin">32.0dip</dimen>
+    <dimen name="search_close_icon_margin_horizontal">8.0dip</dimen>
+    <dimen name="search_suggestion_left_margin">54.0dip</dimen>
+    <dimen name="search_suggestions_list_item_padding">22.0dip</dimen>
+    <dimen name="stations_track_item_size">164.0dip</dimen>
+    <dimen name="system_playlist_preview_height">300.0dip</dimen>
+    <dimen name="system_playlist_preview_height_large">300.0dip</dimen>
+    <dimen name="system_playlist_preview_width">300.0dip</dimen>
+    <dimen name="system_playlist_preview_width_large">300.0dip</dimen>
+    <dimen name="top_bottom_layout_margin">56.0dip</dimen>
+    <dimen name="ak_grid_divider_left_right_inset">8.0dip</dimen>
+</resources>

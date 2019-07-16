@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight">
+        <ProgressBar android:gravity="center" android:id="@id/uniflow_list_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:layout_centerInParent="true" />
+        <FrameLayout android:id="@id/uniflow_list_retry" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground">
+            <com.soundcloud.android.view.customfontviews.CustomFontTextView android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/error_page_load_failed" style="@style/UniflowErrorItem" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

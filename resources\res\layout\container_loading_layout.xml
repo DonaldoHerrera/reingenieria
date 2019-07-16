@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/toolbar_no_shadow"/>
+    <FrameLayout android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/toolbar_id">
+        <com.soundcloud.android.view.CircularProgressBar android:layout_gravity="center" android:id="@+id/loading" android:visibility="gone" android:layout_width="@dimen/medium_indeterminite_spinner_width" android:layout_height="@dimen/medium_indeterminite_spinner_height"/>
+    </FrameLayout>
+</RelativeLayout>

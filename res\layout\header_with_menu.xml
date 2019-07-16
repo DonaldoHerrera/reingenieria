@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/Divider.16.Mist" />
+    <View style="@style/Divider.1.Section" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TrackLikesHeader">
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:textSize="15.0sp" android:textColor="@color/charcoal" android:id="@id/header_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" style="@style/TextAppearance.SoundCloudLightFont" />
+        <com.soundcloud.android.view.OverflowAnchorImageButton android:layout_gravity="end|center" android:id="@id/overflow_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/EngagementAction.Overflow" />
+    </LinearLayout>
+    <View style="@style/Divider.1.Section" />
+</LinearLayout>

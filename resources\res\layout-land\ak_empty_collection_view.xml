@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.25"/>
+    <ImageView android:id="@+id/ak_emptyview_image" android:padding="5dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.7"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2">
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.5"/>
+        <TextView android:id="@+id/ak_emptyview_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0" style="@style/Ak.EmptyViewContent.EmptyCollection"/>
+        <TextView android:id="@+id/ak_emptyview_link" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0" style="@style/Ak.EmptyViewContent.EmptyCollection.Link"/>
+        <Button android:id="@+id/ak_emptyview_btn_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_weight="0" style="@style/Ak.EmptyCollectionButton"/>
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.5"/>
+    </LinearLayout>
+    <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.2"/>
+</LinearLayout>

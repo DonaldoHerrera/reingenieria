@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/overlay_bg" style="@style/SignUp.Overlay" />
+    <ScrollView android:id="@id/overlay_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" style="@style/SignUp">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/login_stub" android:layout="@layout/login" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/create_account_stub" android:layout="@layout/create_account" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/create_account_age_stub" android:layout="@layout/create_account_age_verify" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/almost_done" android:layout="@layout/almost_done" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/enter_user_details_stub" android:layout="@layout/enter_user_details" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SignUp.Content" />
+        </FrameLayout>
+    </ScrollView>
+</merge>

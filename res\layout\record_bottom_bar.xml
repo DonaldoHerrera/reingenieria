@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/btn_min_height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.soundcloud.android.view.customfontviews.CustomFontButton android:textColor="@color/ash" android:id="@id/btn_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_delete" style="@style/BorderlessButton" />
+    <com.soundcloud.android.view.customfontviews.CustomFontButton android:textColor="@color/soundcloudOrange" android:id="@id/btn_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_next" style="@style/BorderlessButton" />
+    <com.soundcloud.android.view.customfontviews.CustomFontButton android:textColor="@color/ash" android:id="@id/btn_revert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_revert_to_original" style="@style/BorderlessButton" />
+    <com.soundcloud.android.view.customfontviews.CustomFontButton android:textColor="@color/soundcloudOrange" android:id="@id/btn_apply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_apply" style="@style/BorderlessButton" />
+</LinearLayout>

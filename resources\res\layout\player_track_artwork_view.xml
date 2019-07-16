@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.soundcloud.android.view.SquareFrameLayout android:id="@+id/artwork_holder" style="@style/PlayerTrackArtworkHolder">
+        <ImageView android:id="@+id/artwork_image_view" android:contentDescription="@null" style="@style/PlayerTrackArtwork"/>
+        <ImageView android:id="@+id/artwork_overlay_image" android:contentDescription="@null" style="@style/PlayerTrackArtwork"/>
+    </com.soundcloud.android.view.SquareFrameLayout>
+</merge>

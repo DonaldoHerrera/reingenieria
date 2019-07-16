@@ -1,0 +1,100 @@
+package defpackage;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+
+/* renamed from: FCb reason: default package */
+/* compiled from: ThaiBuddhistEra */
+public enum FCb implements C6693jCb {
+    BEFORE_BE,
+    BE;
+
+    public static FCb a(int i) {
+        if (i == 0) {
+            return BEFORE_BE;
+        }
+        if (i == 1) {
+            return BE;
+        }
+        throw new C5687cBb("Era is not valid for ThaiBuddhistEra");
+    }
+
+    private Object writeReplace() {
+        return new ACb(8, this);
+    }
+
+    public boolean b(C7381tDb tdb) {
+        boolean z = true;
+        if (tdb instanceof C6423fDb) {
+            if (tdb != C6423fDb.ERA) {
+                z = false;
+            }
+            return z;
+        }
+        if (tdb == null || !tdb.a(this)) {
+            z = false;
+        }
+        return z;
+    }
+
+    public int c(C7381tDb tdb) {
+        if (tdb == C6423fDb.ERA) {
+            return getValue();
+        }
+        return a(tdb).a(d(tdb), tdb);
+    }
+
+    public long d(C7381tDb tdb) {
+        if (tdb == C6423fDb.ERA) {
+            return (long) getValue();
+        }
+        if (!(tdb instanceof C6423fDb)) {
+            return tdb.c(this);
+        }
+        StringBuilder sb = new StringBuilder();
+        sb.append("Unsupported field: ");
+        sb.append(tdb);
+        throw new EDb(sb.toString());
+    }
+
+    public int getValue() {
+        return ordinal();
+    }
+
+    public FDb a(C7381tDb tdb) {
+        if (tdb == C6423fDb.ERA) {
+            return tdb.range();
+        }
+        if (!(tdb instanceof C6423fDb)) {
+            return tdb.b(this);
+        }
+        StringBuilder sb = new StringBuilder();
+        sb.append("Unsupported field: ");
+        sb.append(tdb);
+        throw new EDb(sb.toString());
+    }
+
+    public C6967nDb a(C6967nDb ndb) {
+        return ndb.a((C7381tDb) C6423fDb.ERA, (long) getValue());
+    }
+
+    public <R> R a(CDb<R> cDb) {
+        if (cDb == BDb.e()) {
+            return C6491gDb.ERAS;
+        }
+        if (cDb == BDb.a() || cDb == BDb.f() || cDb == BDb.g() || cDb == BDb.d() || cDb == BDb.b() || cDb == BDb.c()) {
+            return null;
+        }
+        return cDb.a(this);
+    }
+
+    /* access modifiers changed from: 0000 */
+    public void a(DataOutput dataOutput) throws IOException {
+        dataOutput.writeByte(getValue());
+    }
+
+    static FCb a(DataInput dataInput) throws IOException {
+        return a((int) dataInput.readByte());
+    }
+}

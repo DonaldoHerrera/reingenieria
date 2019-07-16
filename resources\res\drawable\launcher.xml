@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:opacity="opaque">
+    <item>
+        <shape>
+            <gradient android:startColor="@color/soundcloudOrange" android:endColor="@color/scarlet" android:angle="270"/>
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/splash_page_logo"/>
+    </item>
+</layer-list>

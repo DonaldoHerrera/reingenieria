@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="@dimen/space_xxxlarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/space_xlarge" android:paddingEnd="@dimen/space_xlarge"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/btn_create_account" android:layout_width="@dimen/btn_upsell_max_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_large" layout="@layout/button_primary_upsell" />
+    <include android:id="@id/btn_login" android:layout_width="@dimen/btn_upsell_max_width" android:layout_height="wrap_content" layout="@layout/button_secondary_upsell" />
+</LinearLayout>

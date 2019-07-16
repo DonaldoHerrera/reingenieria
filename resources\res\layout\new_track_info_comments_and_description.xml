@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+        <include layout="@layout/new_track_info_comments_and_description_common"/>
+    </androidx.core.widget.NestedScrollView>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/trackInfoLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true"/>
+</merge>

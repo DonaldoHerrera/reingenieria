@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/player_ad_page" android:background="@color/ad_default_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/player_ad_video_container" />
+    <include layout="@layout/ad_gradient" />
+    <include layout="@layout/player_ad_expanded_header" />
+    <com.soundcloud.android.playback.ui.view.RoundedColorButton android:id="@id/cta_button" android:layout_marginBottom="@dimen/ad_cta_button_video_bottom_margin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/AdButton.CallToAction" />
+    <FrameLayout android:id="@id/skip_container" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/player_ad_engagement" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/SkipContainer">
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/time_until_skip" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/AdText.NextUp" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/skip_ad" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ads_skip_ad" style="@style/AdText.NextUp.Skip" />
+    </FrameLayout>
+    <com.soundcloud.android.view.CircularProgressBar android:id="@id/video_progress" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/preview_container" android:layout_width="fill_parent" android:layout_height="@dimen/player_ad_engagement" android:layout_toLeftOf="@id/skip_container" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/preview_artwork_container" android:layout_width="32.0dip" android:layout_height="32.0dip" style="@style/PreviewArtwork">
+            <ImageView android:id="@id/preview_artwork" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+            <View android:id="@id/preview_artwork_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/PreviewArtworkOverlay" />
+        </FrameLayout>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/preview_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_toRightOf="@id/preview_artwork_container" style="@style/AdText.NextUp.Title" />
+    </RelativeLayout>
+    <include layout="@layout/video_play_controls" />
+</RelativeLayout>

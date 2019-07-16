@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/dialog_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/playListTitle" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" app:custom_font="@string/interstate_light" style="@style/DialogContentText" />
+        <ImageView android:gravity="end|center" android:id="@id/icon_private" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/add_to_playlist_private" android:contentDescription="@string/accessibility_private_playlist" />
+        <ImageView android:gravity="end|center" android:id="@id/icon_offline" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/entity_downloaded" android:contentDescription="@string/accessibility_offline" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:gravity="end|center" android:id="@id/trackCount" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawablePadding="5.0dip" android:layout_marginStart="12.0dip" style="@style/DialogContentText" />
+    </LinearLayout>
+</FrameLayout>

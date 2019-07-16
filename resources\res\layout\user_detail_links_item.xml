@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/links_header" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View style="@style/Divider.16.Mist"/>
+        <View style="@style/Divider.1.Section"/>
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/profile_links" style="@style/Profile.InfoTab.HeadingText"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/links_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/links_footer" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/white" android:layout_width="match_parent" android:layout_height="16dp"/>
+        <View style="@style/Divider.1.Section"/>
+    </LinearLayout>
+</LinearLayout>

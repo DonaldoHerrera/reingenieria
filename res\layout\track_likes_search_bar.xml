@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/search_text_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:paddingStart="@dimen/space_medium" android:layout_marginEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.soundcloud.android.view.customfontviews.CustomFontEditText android:textSize="17.0sp" android:textColorHint="@color/ash" android:id="@id/search_edit_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:imeOptions="actionSearch|flagNoExtractUi" style="@style/Search.TextView.Input" />
+    <ImageButton android:id="@id/search_close" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/search_close_icon_margin_horizontal" android:layout_marginRight="@dimen/search_close_icon_margin_horizontal" android:src="@drawable/close_icon" android:contentDescription="@string/accessibility_close" />
+</LinearLayout>

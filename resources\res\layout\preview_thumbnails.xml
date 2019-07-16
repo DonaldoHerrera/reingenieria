@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:foreground="@drawable/artwork_border" android:layout_alignParentRight="true">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/thumbnail_container" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</FrameLayout>

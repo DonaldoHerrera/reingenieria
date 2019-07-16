@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.soundcloud.android.view.customfontviews.CustomFontButton android:textSize="15sp" android:textColor="@color/charcoal" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/cell_standard_icon" android:background="?attr/selectableItemBackground" android:paddingTop="18dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="24dp" android:layout_weight="1" android:textAllCaps="false" android:paddingStart="24dp" android:paddingEnd="16dp" app:custom_font="@string/interstate_light"/>
+</merge>

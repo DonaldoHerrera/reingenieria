@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/rounded_white_background" android:paddingTop="32.0px" android:paddingBottom="24.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44.0px" android:paddingStart="24.0px" android:paddingEnd="24.0px" android:layout_marginStart="20.0px">
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/shareStickerTitle" android:maxLines="2" app:custom_font="@string/interstate_regular" style="@style/SocialSharing.StickerText" />
+        <com.soundcloud.android.view.customfontviews.CustomFontTextView android:id="@id/shareStickerSubtitle" android:layout_marginTop="4.0px" android:maxLines="1" app:custom_font="@string/interstate_light" style="@style/SocialSharing.StickerText" />
+    </LinearLayout>
+    <ImageView android:id="@id/shareStickerLogoIm" android:layout_width="132.0px" android:layout_height="68.0px" android:src="@drawable/ic_logo_sticker" />
+</FrameLayout>
